@@ -1,0 +1,2485 @@
+rm -rf main
+g++ -o main main.cpp
+./main /dev/ttyCH341USB0
+Hello lkmotor
+Using serial port: /dev/ttyCH341USB0
+[bus:0] bus:debug on
+motor(1):debug on
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 25 19 01 1e dc 04 3d
+Encoder:6437 Raw:7681 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef 50 46 00 00 00 00 00 00 00 00 00 00 96
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 0a 00 2c 19 73
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 66 1a 42 1f dc 04 c1
+Encoder:6758 Raw:8002 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef 03 47 00 00 00 00 00 00 00 00 00 00 4a
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 3d 00 e7 1a 5f
+Target:    18179 Encoder:     3783 errors:1/2  (errors in checksum of second part of response: 1)
+[bus:0] Sending :  3e a4 01 0c ef b7 47 00 00 00 00 00 00 00 00 00 00 fe
+[bus:0] Recieved :  3e a4 01 07 ea 21 96 00 7c 00 1b 1b 69
+Target:    18359 Encoder:     3811 errors:1/3  (errors in checksum of second part of response: 1)
+[bus:0] Sending :  3e a4 01 0c ef 6b 48 00 00 00 00 00 00 00 00 00 00 b3
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 79 02 f7 1b 1d
+Target:    18539 Encoder:     3932 errors:1/4  (errors in checksum of second part of response: 1)
+[bus:0] Sending :  3e a4 01 0c ef 1f 49 00 00 00 00 00 00 00 00 00 00 68
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 20 03 01 1d c4
+Target:    18719 Encoder:     4078 errors:1/5  (errors in checksum of second part of response: 1)
+[bus:0] Sending :  3e a4 01 0c ef d3 49 00 00 00 00 00 00 00 00 00 00 1c
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 75 02 cc 1d f0
+Target:    18899 Encoder:     4190 errors:1/6  (errors in checksum of second part of response: 1)
+[bus:0] Sending :  3e a4 01 0c ef 87 4a 00 00 00 00 00 00 00 00 00 00 d1
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 f0 02 be 1e 55
+Target:    19079 Encoder:     4323 errors:1/7  (errors in checksum of second part of response: 1)
+[bus:0] Sending :  3e a4 01 0c ef 3a 4b 00 00 00 00 00 00 00 00 00 00 85
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 0e 03 c7 1f 7c
+Target:    19258 Encoder:     4468 errors:1/8  (errors in checksum of second part of response: 1)
+[bus:0] Sending :  3e a4 01 0c ef ee 4b 00 00 00 00 00 00 00 00 00 00 39
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 ae 02 b0 20 0a
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 6b 22 47 27 dc 04 db
+Encoder:8811 Raw:10055 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef a1 4c 00 00 00 00 00 00 00 00 00 00 ed
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 87 ff 48 22 11
+Target:    19617 Encoder:     4820 errors:2/10  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 55 4d 00 00 00 00 00 00 00 00 00 00 a2
+[bus:0] Recieved :  3e a4 01 07 ea 21 a4 00 e6 ff 4d 22 19
+Target:    19797 Encoder:     4823 errors:2/11  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 08 4e 00 00 00 00 00 00 00 00 00 00 56
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 81 02 2b 23 62
+Target:    19976 Encoder:     4945 errors:2/12  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef ba 4e 00 00 00 00 00 00 00 00 00 00 08
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 36 03 40 24 20
+Target:    20154 Encoder:     5097 errors:2/13  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 6d 4f 00 00 00 00 00 00 00 00 00 00 bc
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 c5 02 32 25 aa
+Target:    20333 Encoder:     5230 errors:2/14  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 1f 50 00 00 00 00 00 00 00 00 00 00 6f
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 cf 02 18 26 9a
+Target:    20511 Encoder:     5356 errors:2/15  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef d1 50 00 00 00 00 00 00 00 00 00 00 21
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 fb 02 1e 27 ca
+Target:    20689 Encoder:     5500 errors:2/16  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 83 51 00 00 00 00 00 00 00 00 00 00 d4
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 46 03 3c 28 2f
+Target:    20867 Encoder:     5657 errors:2/17  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 35 52 00 00 00 00 00 00 00 00 00 00 87
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 58 03 60 29 65
+Target:    21045 Encoder:     5818 errors:2/18  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef e6 52 00 00 00 00 00 00 00 00 00 00 38
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 f2 02 cd 2a 74
+Target:    21222 Encoder:     6018 errors:2/19  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 97 53 00 00 00 00 00 00 00 00 00 00 ea
+[bus:0] Recieved :  3e a4 01 07 ea 21 72 00 72 02 a3 2b d5
+Target:    21399 Encoder:     6136 errors:2/20  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 48 54 00 00 00 00 00 00 00 00 00 00 9c
+[bus:0] Recieved :  3e a4 01 07 ea 21 77 00 3c 02 8f 2c 91
+Target:    21576 Encoder:     6266 errors:2/21  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef f8 54 00 00 00 00 00 00 00 00 00 00 4c
+[bus:0] Recieved :  3e a4 01 07 ea 21 72 00 7e 02 94 2d d4
+Target:    21752 Encoder:     6409 errors:2/22  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef a8 55 00 00 00 00 00 00 00 00 00 00 fd
+[bus:0] Recieved :  3e a4 01 07 ea 21 6e 00 a7 02 b8 2e 1e
+Target:    21928 Encoder:     6569 errors:2/23  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 57 56 00 00 00 00 00 00 00 00 00 00 ad
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 bc 02 e7 2f 62
+Target:    22103 Encoder:     6736 errors:2/24  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 06 57 00 00 00 00 00 00 00 00 00 00 5d
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 dc 02 33 31 cd
+Target:    22278 Encoder:     6918 errors:2/25  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef b5 57 00 00 00 00 00 00 00 00 00 00 0c
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 52 03 8a 32 93
+Target:    22453 Encoder:     7107 errors:2/26  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 63 58 00 00 00 00 00 00 00 00 00 00 bb
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 55 03 e8 33 f5
+Target:    22627 Encoder:     7299 errors:2/27  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 11 59 00 00 00 00 00 00 00 00 00 00 6a
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 03 03 ef 34 b1
+Target:    22801 Encoder:     7443 errors:2/28  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef be 59 00 00 00 00 00 00 00 00 00 00 17
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 b9 02 dc 35 5a
+Target:    22974 Encoder:     7573 errors:2/29  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 6b 5a 00 00 00 00 00 00 00 00 00 00 c5
+[bus:0] Recieved :  3e a4 01 07 ea 21 74 00 66 02 d9 36 0c
+Target:    23147 Encoder:     7712 errors:2/30  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 17 5b 00 00 00 00 00 00 00 00 00 00 72
+[bus:0] Recieved :  3e a4 01 07 ea 21 71 00 8d 02 e3 37 3b
+Target:    23319 Encoder:     7859 errors:2/31  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef c3 5b 00 00 00 00 00 00 00 00 00 00 1e
+[bus:0] Recieved :  3e a4 01 07 ea 21 6e 00 b6 02 0f 39 8f
+Target:    23491 Encoder:     8023 errors:2/32  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 6e 5c 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 be 02 3e 3a c6
+Target:    23662 Encoder:     8190 errors:2/33  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 18 5d 00 00 00 00 00 00 00 00 00 00 75
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 db 02 79 3b 1d
+Target:    23832 Encoder:     8363 errors:2/34  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef c2 5d 00 00 00 00 00 00 00 00 00 00 1f
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 58 03 e6 3c ff
+Target:    24002 Encoder:     8563 errors:2/35  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 6c 5e 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 42 03 52 3e 59
+Target:    24172 Encoder:     8763 errors:2/36  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 14 5f 00 00 00 00 00 00 00 00 00 00 73
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 c9 02 89 3f 20
+Target:    24340 Encoder:     8934 errors:2/37  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef bd 5f 00 00 00 00 00 00 00 00 00 00 1c
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 a7 02 a0 40 19
+Target:    24509 Encoder:     9087 errors:2/38  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 64 60 00 00 00 00 00 00 00 00 00 00 c4
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 9d 02 b2 41 23
+Target:    24676 Encoder:     9238 errors:2/39  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 0b 61 00 00 00 00 00 00 00 00 00 00 6c
+[bus:0] Recieved :  3e a4 01 07 ea 21 71 00 8f 02 c0 42 25
+Target:    24843 Encoder:     9386 errors:2/40  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef b1 61 00 00 00 00 00 00 00 00 00 00 12
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 9d 02 a5 43 18
+Target:    25009 Encoder:     9512 errors:2/41  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 56 62 00 00 00 00 00 00 00 00 00 00 b8
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 ae 02 80 44 04
+Target:    25174 Encoder:     9632 errors:2/42  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef fb 62 00 00 00 00 00 00 00 00 00 00 5d
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 df 02 bd 45 6f
+Target:    25339 Encoder:     9806 errors:2/43  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 9f 63 00 00 00 00 00 00 00 00 00 00 02
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 46 03 24 47 38
+Target:    25503 Encoder:    10004 errors:2/44  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 42 64 00 00 00 00 00 00 00 00 00 00 a6
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 28 03 84 48 7d
+Target:    25666 Encoder:    10197 errors:2/45  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef e5 64 00 00 00 00 00 00 00 00 00 00 49
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 c6 02 ba 49 59
+Target:    25829 Encoder:    10367 errors:2/46  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 87 65 00 00 00 00 00 00 00 00 00 00 ec
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 cf 02 f0 4a 98
+Target:    25991 Encoder:    10538 errors:2/47  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 27 66 00 00 00 00 00 00 00 00 00 00 8d
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 ce 02 e4 4b 8c
+Target:    26151 Encoder:    10672 errors:2/48  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef c8 66 00 00 00 00 00 00 00 00 00 00 2e
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 b0 02 ce 4c 5c
+Target:    26312 Encoder:    10800 errors:2/49  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 67 67 00 00 00 00 00 00 00 00 00 00 ce
+[bus:0] Recieved :  3e a4 01 07 ea 21 71 00 91 02 ae 4d 20
+Target:    26471 Encoder:    10923 errors:2/50  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 05 68 00 00 00 00 00 00 00 00 00 00 6d
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 9e 02 93 4e 12
+Target:    26629 Encoder:    11049 errors:2/51  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef a3 68 00 00 00 00 00 00 00 00 00 00 0b
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 d1 02 8a 4f 39
+Target:    26787 Encoder:    11185 errors:2/52  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 3f 69 00 00 00 00 00 00 00 00 00 00 a8
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 04 03 92 50 72
+Target:    26943 Encoder:    11330 errors:2/53  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef db 69 00 00 00 00 00 00 00 00 00 00 44
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 34 03 bb 51 c9
+Target:    27099 Encoder:    11493 errors:2/54  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 76 6a 00 00 00 00 00 00 00 00 00 00 e0
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 07 03 d5 52 ba
+Target:    27254 Encoder:    11648 errors:2/55  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 10 6b 00 00 00 00 00 00 00 00 00 00 7b
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 d9 02 ce 53 89
+Target:    27408 Encoder:    11785 errors:2/56  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef a9 6b 00 00 00 00 00 00 00 00 00 00 14
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 d0 02 d5 54 89
+Target:    27561 Encoder:    11929 errors:2/57  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 41 6c 00 00 00 00 00 00 00 00 00 00 ad
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 ee 02 c3 55 93
+Target:    27713 Encoder:    12060 errors:2/58  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef d8 6c 00 00 00 00 00 00 00 00 00 00 44
+[bus:0] Recieved :  3e a4 01 07 ea 21 6e 00 c5 02 b5 56 61
+Target:    27864 Encoder:    12193 errors:2/59  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 6e 6d 00 00 00 00 00 00 00 00 00 00 db
+[bus:0] Recieved :  3e a4 01 07 ea 21 72 00 8b 02 a3 57 1a
+Target:    28014 Encoder:    12323 errors:2/60  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 03 6e 00 00 00 00 00 00 00 00 00 00 71
+[bus:0] Recieved :  3e a4 01 07 ea 21 72 00 8d 02 84 58 fe
+Target:    28163 Encoder:    12447 errors:2/61  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 97 6e 00 00 00 00 00 00 00 00 00 00 05
+[bus:0] Recieved :  3e a4 01 07 ea 21 6e 00 ca 02 69 59 1d
+Target:    28311 Encoder:    12573 errors:2/62  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 2a 6f 00 00 00 00 00 00 00 00 00 00 99
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 fc 02 6f 5a 52
+Target:    28458 Encoder:    12717 errors:2/63  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef bc 6f 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 69 00 05 03 89 5b 76
+Target:    28604 Encoder:    12872 errors:2/64  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 4d 70 00 00 00 00 00 00 00 00 00 00 bd
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 f8 02 9d 5c 7e
+Target:    28749 Encoder:    13023 errors:2/65  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef dd 70 00 00 00 00 00 00 00 00 00 00 4d
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 e2 02 99 5d 67
+Target:    28893 Encoder:    13162 errors:2/66  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 6c 71 00 00 00 00 00 00 00 00 00 00 dd
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 e1 02 84 5e 52
+Target:    29036 Encoder:    13291 errors:2/67  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef f9 71 00 00 00 00 00 00 00 00 00 00 6a
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 ec 02 85 5f 5e
+Target:    29177 Encoder:    13432 errors:2/68  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 86 72 00 00 00 00 00 00 00 00 00 00 f8
+[bus:0] Recieved :  3e a4 01 07 ea 21 69 00 04 03 8b 60 7c
+Target:    29318 Encoder:    13576 errors:2/69  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 11 73 00 00 00 00 00 00 00 00 00 00 84
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 bd 02 79 61 29
+Target:    29457 Encoder:    13707 errors:2/70  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 9b 73 00 00 00 00 00 00 00 00 00 00 0e
+[bus:0] Recieved :  3e a4 01 07 ea 21 72 00 92 02 5a 62 e3
+Target:    29595 Encoder:    13830 errors:2/71  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 25 74 00 00 00 00 00 00 00 00 00 00 99
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 b4 02 48 63 f2
+Target:    29733 Encoder:    13961 errors:2/72  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef ac 74 00 00 00 00 00 00 00 00 00 00 20
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 fb 02 4b 64 37
+Target:    29868 Encoder:    14103 errors:2/73  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 33 75 00 00 00 00 00 00 00 00 00 00 a8
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 eb 02 4a 65 28
+Target:    30003 Encoder:    14243 errors:2/74  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef b9 75 00 00 00 00 00 00 00 00 00 00 2e
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 df 02 45 66 19
+Target:    30137 Encoder:    14381 errors:2/75  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 3d 76 00 00 00 00 00 00 00 00 00 00 b3
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 df 02 40 67 15
+Target:    30269 Encoder:    14519 errors:2/76  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef c0 76 00 00 00 00 00 00 00 00 00 00 36
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 f1 02 41 68 28
+Target:    30400 Encoder:    14660 errors:2/77  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 42 77 00 00 00 00 00 00 00 00 00 00 b9
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 fc 02 46 69 38
+Target:    30530 Encoder:    14804 errors:2/78  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef c3 77 00 00 00 00 00 00 00 00 00 00 3a
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 0f 03 41 6a 46
+Target:    30659 Encoder:    14941 errors:2/79  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 42 78 00 00 00 00 00 00 00 00 00 00 ba
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 f7 02 55 6b 44
+Target:    30786 Encoder:    15093 errors:2/80  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef c0 78 00 00 00 00 00 00 00 00 00 00 38
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 b5 02 42 6c f5
+Target:    30912 Encoder:    15223 errors:2/81  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 3d 79 00 00 00 00 00 00 00 00 00 00 b6
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 b5 02 1f 6d d3
+Target:    31037 Encoder:    15345 errors:2/82  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef b8 79 00 00 00 00 00 00 00 00 00 00 31
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 db 02 19 6e f1
+Target:    31160 Encoder:    15482 errors:2/83  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 32 7a 00 00 00 00 00 00 00 00 00 00 ac
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 de 02 14 6f f0
+Target:    31282 Encoder:    15620 errors:2/84  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef ab 7a 00 00 00 00 00 00 00 00 00 00 25
+[bus:0] Recieved :  3e a4 01 07 ea 21 6e 00 c1 02 04 70 c6
+Target:    31403 Encoder:    15752 errors:2/85  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 23 7b 00 00 00 00 00 00 00 00 00 00 9e
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 ae 02 ef 70 9f
+Target:    31523 Encoder:    15881 errors:2/86  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 99 7b 00 00 00 00 00 00 00 00 00 00 14
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 cb 02 e4 71 b0
+Target:    31641 Encoder:    16015 errors:2/87  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 0d 7c 00 00 00 00 00 00 00 00 00 00 89
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 14 03 f1 72 02
+Target:    31757 Encoder:    16163 errors:2/88  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 81 7c 00 00 00 00 00 00 00 00 00 00 fd
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 15 03 fd 73 10
+Target:    31873 Encoder:    16310 errors:2/89  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef f3 7c 00 00 00 00 00 00 00 00 00 00 6f
+[bus:0] Recieved :  3e a4 01 07 ea 21 69 00 fb 02 02 75 fe
+Target:    31987 Encoder:    16454 errors:2/90  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 63 7d 00 00 00 00 00 00 00 00 00 00 e0
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 ef 02 02 76 f4
+Target:    32099 Encoder:    16594 errors:2/91  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef d3 7d 00 00 00 00 00 00 00 00 00 00 50
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 cc 02 f6 76 c7
+Target:    32211 Encoder:    16728 errors:2/92  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 40 7e 00 00 00 00 00 00 00 00 00 00 be
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 c6 02 d8 77 a5
+Target:    32320 Encoder:    16853 errors:2/93  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef ad 7e 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 c7 02 cb 78 9a
+Target:    32429 Encoder:    16986 errors:2/94  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 18 7f 00 00 00 00 00 00 00 00 00 00 97
+[bus:0] Recieved :  3e a4 01 07 ea 21 6e 00 af 02 c4 79 7d
+Target:    32536 Encoder:    17123 errors:2/95  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 81 7f 00 00 00 00 00 00 00 00 00 00 00
+[bus:0] Recieved :  3e a4 01 07 ea 21 71 00 92 02 a5 7a 45
+Target:    32641 Encoder:    17246 errors:2/96  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef e9 7f 00 00 00 00 00 00 00 00 00 00 68
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 a3 02 7e 7b 2e
+Target:    32745 Encoder:    17366 errors:2/97  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 4f 80 00 00 00 00 00 00 00 00 00 00 cf
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 e5 02 7d 7c 6b
+Target:    32847 Encoder:    17506 errors:2/98  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef b4 80 00 00 00 00 00 00 00 00 00 00 34
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 22 03 8e 7d b6
+Target:    32948 Encoder:    17656 errors:2/99  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 18 81 00 00 00 00 00 00 00 00 00 00 99
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 05 03 96 7e a4
+Target:    33048 Encoder:    17801 errors:2/100  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 7a 81 00 00 00 00 00 00 00 00 00 00 fb
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 f7 02 9a 7f 9b
+Target:    33146 Encoder:    17943 errors:2/101  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef da 81 00 00 00 00 00 00 00 00 00 00 5b
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 f5 02 9c 80 9c
+Target:    33242 Encoder:    18085 errors:2/102  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 39 82 00 00 00 00 00 00 00 00 00 00 bb
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 eb 02 9b 81 92
+Target:    33337 Encoder:    18225 errors:2/103  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 97 82 00 00 00 00 00 00 00 00 00 00 19
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 bc 02 8a 82 57
+Target:    33431 Encoder:    18357 errors:2/104  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef f3 82 00 00 00 00 00 00 00 00 00 00 75
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 84 02 66 83 00
+Target:    33523 Encoder:    18477 errors:2/105  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 4d 83 00 00 00 00 00 00 00 00 00 00 d0
+[bus:0] Recieved :  3e a4 01 07 ea 21 71 00 75 02 2f 84 bc
+Target:    33613 Encoder:    18588 errors:2/106  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef a6 83 00 00 00 00 00 00 00 00 00 00 29
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 8c 02 ff 84 a1
+Target:    33702 Encoder:    18702 errors:2/107  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef fd 83 00 00 00 00 00 00 00 00 00 00 80
+[bus:0] Recieved :  3e a4 01 07 ea 21 6e 00 a0 02 e6 85 9c
+Target:    33789 Encoder:    18829 errors:2/108  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 53 84 00 00 00 00 00 00 00 00 00 00 d7
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 ef 02 e8 86 e7
+Target:    33875 Encoder:    18971 errors:2/109  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef a7 84 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 27 03 fb 87 2f
+Target:    33959 Encoder:    19122 errors:2/110  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef f9 84 00 00 00 00 00 00 00 00 00 00 7d
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 f2 02 fc 88 ff
+Target:    34041 Encoder:    19263 errors:2/111  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 4a 85 00 00 00 00 00 00 00 00 00 00 cf
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 f7 02 00 8a 0a
+Target:    34122 Encoder:    19406 errors:2/112  (errors in checksum of second part of response: 2)
+[bus:0] Sending :  3e a4 01 0c ef 99 85 00 00 00 00 00 00 00 00 00 00 1e
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 0a 03 0c 8b 2c
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 1f 8d fb 91 dc 04 18
+Encoder:36127 Raw:37371 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef e7 85 00 00 00 00 00 00 00 00 00 00 6c
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 88 ff 07 8d 3c
+Target:    34279 Encoder:    19831 errors:3/114  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 33 86 00 00 00 00 00 00 00 00 00 00 b9
+[bus:0] Recieved :  3e a4 01 07 ea 21 a4 00 d4 ff 06 8d 2b
+Target:    34355 Encoder:    19831 errors:3/115  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 7d 86 00 00 00 00 00 00 00 00 00 00 03
+[bus:0] Recieved :  3e a4 01 07 ea 21 71 00 58 02 d5 8d 4e
+Target:    34429 Encoder:    19945 errors:3/116  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef c6 86 00 00 00 00 00 00 00 00 00 00 4c
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 de 02 cd 8e c2
+Target:    34502 Encoder:    20081 errors:3/117  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 0d 87 00 00 00 00 00 00 00 00 00 00 94
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 6d 02 a2 8f 30
+Target:    34573 Encoder:    20198 errors:3/118  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 52 87 00 00 00 00 00 00 00 00 00 00 d9
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 ac 02 8d 90 56
+Target:    34642 Encoder:    20327 errors:3/119  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 96 87 00 00 00 00 00 00 00 00 00 00 1d
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 f8 02 92 91 a1
+Target:    34710 Encoder:    20470 errors:3/120  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d8 87 00 00 00 00 00 00 00 00 00 00 5f
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 0c 03 9c 92 c0
+Target:    34776 Encoder:    20616 errors:3/121  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 19 88 00 00 00 00 00 00 00 00 00 00 a1
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 e4 02 98 93 96
+Target:    34841 Encoder:    20755 errors:3/122  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 57 88 00 00 00 00 00 00 00 00 00 00 df
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 e7 02 97 94 99
+Target:    34903 Encoder:    20895 errors:3/123  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 94 88 00 00 00 00 00 00 00 00 00 00 1c
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 08 03 8e 95 b0
+Target:    34964 Encoder:    21031 errors:3/124  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d0 88 00 00 00 00 00 00 00 00 00 00 58
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 b2 02 77 96 49
+Target:    35024 Encoder:    21159 errors:3/125  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 09 89 00 00 00 00 00 00 00 00 00 00 92
+[bus:0] Recieved :  3e a4 01 07 ea 21 72 00 24 02 32 97 82
+Target:    35081 Encoder:    21261 errors:3/126  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 41 89 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 73 00 18 02 eb 97 30
+Target:    35137 Encoder:    21363 errors:3/127  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 77 89 00 00 00 00 00 00 00 00 00 00 00
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 3f 02 bd 98 27
+Target:    35191 Encoder:    21478 errors:3/128  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef ac 89 00 00 00 00 00 00 00 00 00 00 35
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 68 02 82 99 12
+Target:    35244 Encoder:    21587 errors:3/129  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef df 89 00 00 00 00 00 00 00 00 00 00 68
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 99 02 66 9a 24
+Target:    35295 Encoder:    21712 errors:3/130  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 10 8a 00 00 00 00 00 00 00 00 00 00 9a
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 bd 02 57 9b 37
+Target:    35344 Encoder:    21844 errors:3/131  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 3f 8a 00 00 00 00 00 00 00 00 00 00 c9
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 de 02 52 9c 51
+Target:    35391 Encoder:    21982 errors:3/132  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 6c 8a 00 00 00 00 00 00 00 00 00 00 f6
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 fa 02 57 9d 70
+Target:    35436 Encoder:    22125 errors:3/133  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 98 8a 00 00 00 00 00 00 00 00 00 00 22
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 f9 02 5b 9e 74
+Target:    35480 Encoder:    22268 errors:3/134  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef c2 8a 00 00 00 00 00 00 00 00 00 00 4c
+[bus:0] Recieved :  3e a4 01 07 ea 21 5a 00 1b 03 69 9f a1
+Target:    35522 Encoder:    22417 errors:3/135  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef eb 8a 00 00 00 00 00 00 00 00 00 00 75
+[bus:0] Recieved :  3e a4 01 07 ea 21 5d 00 e6 02 65 a0 6b
+Target:    35563 Encoder:    22555 errors:3/136  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 11 8b 00 00 00 00 00 00 00 00 00 00 9c
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 71 02 39 a1 d6
+Target:    35601 Encoder:    22671 errors:3/137  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 36 8b 00 00 00 00 00 00 00 00 00 00 c1
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 06 02 eb a1 25
+Target:    35638 Encoder:    22769 errors:3/138  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 59 8b 00 00 00 00 00 00 00 00 00 00 e4
+[bus:0] Recieved :  3e a4 01 07 ea 21 6f 00 12 02 a1 a2 e7
+Target:    35673 Encoder:    22869 errors:3/139  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 7a 8b 00 00 00 00 00 00 00 00 00 00 05
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 63 02 73 a3 04
+Target:    35706 Encoder:    22985 errors:3/140  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9a 8b 00 00 00 00 00 00 00 00 00 00 25
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 89 02 51 a4 06
+Target:    35738 Encoder:    23106 errors:3/141  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b7 8b 00 00 00 00 00 00 00 00 00 00 42
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 88 02 2e a5 e3
+Target:    35767 Encoder:    23228 errors:3/142  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d3 8b 00 00 00 00 00 00 00 00 00 00 5e
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 9b 02 13 a6 da
+Target:    35795 Encoder:    23354 errors:3/143  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef ed 8b 00 00 00 00 00 00 00 00 00 00 78
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 c2 02 f5 a6 df
+Target:    35821 Encoder:    23478 errors:3/144  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 06 8c 00 00 00 00 00 00 00 00 00 00 92
+[bus:0] Recieved :  3e a4 01 07 ea 21 59 00 f4 02 08 a8 20
+Target:    35846 Encoder:    23629 errors:3/145  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 1c 8c 00 00 00 00 00 00 00 00 00 00 a8
+[bus:0] Recieved :  3e a4 01 07 ea 21 4e 00 16 03 04 a9 35
+Target:    35868 Encoder:    23767 errors:3/146  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 31 8c 00 00 00 00 00 00 00 00 00 00 bd
+[bus:0] Recieved :  3e a4 01 07 ea 21 47 00 ec 02 02 aa 02
+Target:    35889 Encoder:    23907 errors:3/147  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 44 8c 00 00 00 00 00 00 00 00 00 00 d0
+[bus:0] Recieved :  3e a4 01 07 ea 21 50 00 7f 02 da aa 76
+Target:    35908 Encoder:    24026 errors:3/148  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 55 8c 00 00 00 00 00 00 00 00 00 00 e1
+[bus:0] Recieved :  3e a4 01 07 ea 21 6c 00 fa 01 86 ab b9
+Target:    35925 Encoder:    24120 errors:3/149  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 65 8c 00 00 00 00 00 00 00 00 00 00 f1
+[bus:0] Recieved :  3e a4 01 07 ea 21 6e 00 dd 01 2a ac 43
+Target:    35941 Encoder:    24210 errors:3/150  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 72 8c 00 00 00 00 00 00 00 00 00 00 fe
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 12 02 df ac 2a
+Target:    35954 Encoder:    24309 errors:3/151  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 7e 8c 00 00 00 00 00 00 00 00 00 00 0a
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 3f 02 a3 ad 18
+Target:    35966 Encoder:    24417 errors:3/152  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 88 8c 00 00 00 00 00 00 00 00 00 00 14
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 53 02 6f ae f7
+Target:    35976 Encoder:    24529 errors:3/153  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 91 8c 00 00 00 00 00 00 00 00 00 00 1d
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 70 02 44 af e7
+Target:    35985 Encoder:    24646 errors:3/154  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 97 8c 00 00 00 00 00 00 00 00 00 00 23
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 70 02 19 b0 bc
+Target:    35991 Encoder:    24763 errors:3/155  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9c 8c 00 00 00 00 00 00 00 00 00 00 28
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 73 02 f0 b0 96
+Target:    35996 Encoder:    24881 errors:3/156  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9e 8c 00 00 00 00 00 00 00 00 00 00 2a
+[bus:0] Recieved :  3e a4 01 07 ea 21 58 00 b6 02 d1 b1 b3
+Target:    35998 Encoder:    25005 errors:3/157  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9f 8c 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 42 00 0b 03 da b2 fd
+Target:    35999 Encoder:    25151 errors:3/158  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9f 8c 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 36 00 c5 02 ca b3 9b
+Target:    35999 Encoder:    25282 errors:3/159  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9c 8c 00 00 00 00 00 00 00 00 00 00 28
+[bus:0] Recieved :  3e a4 01 07 ea 21 40 00 35 02 89 b4 d5
+Target:    35996 Encoder:    25387 errors:3/160  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 98 8c 00 00 00 00 00 00 00 00 00 00 24
+[bus:0] Recieved :  3e a4 01 07 ea 21 57 00 d8 01 2a b5 30
+Target:    35992 Encoder:    25476 errors:3/161  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 92 8c 00 00 00 00 00 00 00 00 00 00 1e
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 cc 01 c9 b5 d6
+Target:    35986 Encoder:    25563 errors:3/162  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 8a 8c 00 00 00 00 00 00 00 00 00 00 16
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 0a 02 9d b6 e4
+Target:    35978 Encoder:    25679 errors:3/163  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 80 8c 00 00 00 00 00 00 00 00 00 00 0c
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 fe 01 6e b7 aa
+Target:    35968 Encoder:    25794 errors:3/164  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 74 8c 00 00 00 00 00 00 00 00 00 00 00
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 10 02 3a b8 88
+Target:    35956 Encoder:    25906 errors:3/165  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 67 8c 00 00 00 00 00 00 00 00 00 00 f3
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 2d 02 f9 b8 61
+Target:    35943 Encoder:    26011 errors:3/166  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 58 8c 00 00 00 00 00 00 00 00 00 00 e4
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 3c 02 bd b9 33
+Target:    35928 Encoder:    26119 errors:3/167  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 47 8c 00 00 00 00 00 00 00 00 00 00 d3
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 38 02 7f ba f2
+Target:    35911 Encoder:    26226 errors:3/168  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 34 8c 00 00 00 00 00 00 00 00 00 00 c0
+[bus:0] Recieved :  3e a4 01 07 ea 21 58 00 61 02 50 bb e7
+Target:    35892 Encoder:    26340 errors:3/169  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 20 8c 00 00 00 00 00 00 00 00 00 00 ac
+[bus:0] Recieved :  3e a4 01 07 ea 21 45 00 ab 02 3a bc 09
+Target:    35872 Encoder:    26469 errors:3/170  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 09 8c 00 00 00 00 00 00 00 00 00 00 95
+[bus:0] Recieved :  3e a4 01 07 ea 21 2b 00 c7 02 2c bd fe
+Target:    35849 Encoder:    26602 errors:3/171  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef f1 8b 00 00 00 00 00 00 00 00 00 00 7c
+[bus:0] Recieved :  3e a4 01 07 ea 21 25 00 45 02 ef bd 39
+Target:    35825 Encoder:    26709 errors:3/172  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d8 8b 00 00 00 00 00 00 00 00 00 00 63
+[bus:0] Recieved :  3e a4 01 07 ea 21 38 00 a0 01 7d be 35
+Target:    35800 Encoder:    26787 errors:3/173  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef bc 8b 00 00 00 00 00 00 00 00 00 00 47
+[bus:0] Recieved :  3e a4 01 07 ea 21 51 00 68 01 f9 be 92
+Target:    35772 Encoder:    26855 errors:3/174  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9e 8b 00 00 00 00 00 00 00 00 00 00 29
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 97 01 7c bf 54
+Target:    35742 Encoder:    26927 errors:3/175  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 7f 8b 00 00 00 00 00 00 00 00 00 00 0a
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 e8 01 23 c0 4d
+Target:    35711 Encoder:    27019 errors:3/176  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 5e 8b 00 00 00 00 00 00 00 00 00 00 e9
+[bus:0] Recieved :  3e a4 01 07 ea 21 5c 00 02 02 d2 c0 13
+Target:    35678 Encoder:    27115 errors:3/177  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 3c 8b 00 00 00 00 00 00 00 00 00 00 c7
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 e9 01 79 c1 a3
+Target:    35644 Encoder:    27207 errors:3/178  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 17 8b 00 00 00 00 00 00 00 00 00 00 a2
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 df 01 1d c2 3f
+Target:    35607 Encoder:    27297 errors:3/179  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef f1 8a 00 00 00 00 00 00 00 00 00 00 7b
+[bus:0] Recieved :  3e a4 01 07 ea 21 5d 00 ed 01 d1 c2 ff
+Target:    35569 Encoder:    27396 errors:3/180  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef c9 8a 00 00 00 00 00 00 00 00 00 00 53
+[bus:0] Recieved :  3e a4 01 07 ea 21 58 00 f8 01 89 c3 be
+Target:    35529 Encoder:    27497 errors:3/181  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9f 8a 00 00 00 00 00 00 00 00 00 00 29
+[bus:0] Recieved :  3e a4 01 07 ea 21 51 00 00 02 38 c4 70
+Target:    35487 Encoder:    27593 errors:3/182  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 73 8a 00 00 00 00 00 00 00 00 00 00 fd
+[bus:0] Recieved :  3e a4 01 07 ea 21 49 00 03 02 dc c4 0f
+Target:    35443 Encoder:    27683 errors:3/183  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 46 8a 00 00 00 00 00 00 00 00 00 00 d0
+[bus:0] Recieved :  3e a4 01 07 ea 21 40 00 01 02 8c c5 b5
+Target:    35398 Encoder:    27780 errors:3/184  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 17 8a 00 00 00 00 00 00 00 00 00 00 a1
+[bus:0] Recieved :  3e a4 01 07 ea 21 32 00 20 02 46 c6 81
+Target:    35351 Encoder:    27882 errors:3/185  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef e6 89 00 00 00 00 00 00 00 00 00 00 6f
+[bus:0] Recieved :  3e a4 01 07 ea 21 1e 00 1d 02 23 c7 48
+Target:    35302 Encoder:    28003 errors:3/186  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b4 89 00 00 00 00 00 00 00 00 00 00 3d
+[bus:0] Recieved :  3e a4 01 07 ea 21 19 00 bc 01 db c7 99
+Target:    35252 Encoder:    28104 errors:3/187  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 80 89 00 00 00 00 00 00 00 00 00 00 09
+[bus:0] Recieved :  3e a4 01 07 ea 21 2c 00 30 01 5b c8 a1
+Target:    35200 Encoder:    28174 errors:3/188  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 4a 89 00 00 00 00 00 00 00 00 00 00 d3
+[bus:0] Recieved :  3e a4 01 07 ea 21 45 00 1c 01 d6 c8 21
+Target:    35146 Encoder:    28242 errors:3/189  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 12 89 00 00 00 00 00 00 00 00 00 00 9b
+[bus:0] Recieved :  3e a4 01 07 ea 21 4e 00 5e 01 6b c9 02
+Target:    35090 Encoder:    28324 errors:3/190  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d9 88 00 00 00 00 00 00 00 00 00 00 61
+[bus:0] Recieved :  3e a4 01 07 ea 21 4d 00 8e 01 16 ca dd
+Target:    35033 Encoder:    28418 errors:3/191  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9e 88 00 00 00 00 00 00 00 00 00 00 26
+[bus:0] Recieved :  3e a4 01 07 ea 21 44 00 ad 01 cf ca ac
+Target:    34974 Encoder:    28519 errors:3/192  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 61 88 00 00 00 00 00 00 00 00 00 00 e9
+[bus:0] Recieved :  3e a4 01 07 ea 21 40 00 8f 01 60 cb 1c
+Target:    34913 Encoder:    28599 errors:3/193  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 23 88 00 00 00 00 00 00 00 00 00 00 ab
+[bus:0] Recieved :  3e a4 01 07 ea 21 44 00 5a 01 d6 cb 61
+Target:    34851 Encoder:    28664 errors:3/194  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef e3 87 00 00 00 00 00 00 00 00 00 00 6a
+[bus:0] Recieved :  3e a4 01 07 ea 21 49 00 44 01 44 cc bf
+Target:    34787 Encoder:    28724 errors:3/195  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef a1 87 00 00 00 00 00 00 00 00 00 00 28
+[bus:0] Recieved :  3e a4 01 07 ea 21 4f 00 3a 01 af cc 26
+Target:    34721 Encoder:    28783 errors:3/196  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 5d 87 00 00 00 00 00 00 00 00 00 00 e4
+[bus:0] Recieved :  3e a4 01 07 ea 21 52 00 43 01 18 cd 9c
+Target:    34653 Encoder:    28841 errors:3/197  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 18 87 00 00 00 00 00 00 00 00 00 00 9f
+[bus:0] Recieved :  3e a4 01 07 ea 21 4e 00 69 01 93 cd 39
+Target:    34584 Encoder:    28908 errors:3/198  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d1 86 00 00 00 00 00 00 00 00 00 00 57
+[bus:0] Recieved :  3e a4 01 07 ea 21 45 00 83 01 17 ce cf
+Target:    34513 Encoder:    28981 errors:3/199  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 89 86 00 00 00 00 00 00 00 00 00 00 0f
+[bus:0] Recieved :  3e a4 01 07 ea 21 3b 00 7d 01 a2 ce 4a
+Target:    34441 Encoder:    29057 errors:3/200  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 3f 86 00 00 00 00 00 00 00 00 00 00 c5
+[bus:0] Recieved :  3e a4 01 07 ea 21 30 00 7d 01 2d cf cb
+Target:    34367 Encoder:    29134 errors:3/201  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef f3 85 00 00 00 00 00 00 00 00 00 00 78
+[bus:0] Recieved :  3e a4 01 07 ea 21 25 00 7d 01 af cf 42
+Target:    34291 Encoder:    29205 errors:3/202  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef a6 85 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 1b 00 74 01 25 d0 a6
+Target:    34214 Encoder:    29270 errors:3/203  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 57 85 00 00 00 00 00 00 00 00 00 00 dc
+[bus:0] Recieved :  3e a4 01 07 ea 21 11 00 61 01 9e d0 02
+Target:    34135 Encoder:    29336 errors:3/204  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 06 85 00 00 00 00 00 00 00 00 00 00 8b
+[bus:0] Recieved :  3e a4 01 07 ea 21 0b 00 3c 01 09 d1 43
+Target:    34054 Encoder:    29395 errors:3/205  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b4 84 00 00 00 00 00 00 00 00 00 00 38
+[bus:0] Recieved :  3e a4 01 07 ea 21 0f 00 fd 00 5f d1 5d
+Target:    33972 Encoder:    29442 errors:3/206  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 60 84 00 00 00 00 00 00 00 00 00 00 e4
+[bus:0] Recieved :  3e a4 01 07 ea 21 14 00 e1 00 ac d1 93
+Target:    33888 Encoder:    29485 errors:3/207  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 0b 84 00 00 00 00 00 00 00 00 00 00 8f
+[bus:0] Recieved :  3e a4 01 07 ea 21 1b 00 ce 00 f2 d1 cd
+Target:    33803 Encoder:    29523 errors:3/208  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b4 83 00 00 00 00 00 00 00 00 00 00 37
+[bus:0] Recieved :  3e a4 01 07 ea 21 23 00 c1 00 34 d2 0b
+Target:    33716 Encoder:    29559 errors:3/209  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 5b 83 00 00 00 00 00 00 00 00 00 00 de
+[bus:0] Recieved :  3e a4 01 07 ea 21 2c 00 b4 00 72 d2 45
+Target:    33627 Encoder:    29593 errors:3/210  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 01 83 00 00 00 00 00 00 00 00 00 00 84
+[bus:0] Recieved :  3e a4 01 07 ea 21 33 00 b8 00 b1 d2 8f
+Target:    33537 Encoder:    29628 errors:3/211  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef a6 82 00 00 00 00 00 00 00 00 00 00 28
+[bus:0] Recieved :  3e a4 01 07 ea 21 36 00 c9 00 f6 d2 e8
+Target:    33446 Encoder:    29666 errors:3/212  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 48 82 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 34 00 e7 00 45 d3 54
+Target:    33352 Encoder:    29709 errors:3/213  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef ea 81 00 00 00 00 00 00 00 00 00 00 6b
+[bus:0] Recieved :  3e a4 01 07 ea 21 31 00 e3 00 93 d3 9b
+Target:    33258 Encoder:    29752 errors:3/214  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 89 81 00 00 00 00 00 00 00 00 00 00 0a
+[bus:0] Recieved :  3e a4 01 07 ea 21 2e 00 e4 00 e1 d3 e7
+Target:    33161 Encoder:    29795 errors:3/215  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 28 81 00 00 00 00 00 00 00 00 00 00 a9
+[bus:0] Recieved :  3e a4 01 07 ea 21 28 00 e9 00 30 d4 36
+Target:    33064 Encoder:    29838 errors:3/216  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef c4 80 00 00 00 00 00 00 00 00 00 00 44
+[bus:0] Recieved :  3e a4 01 07 ea 21 21 00 e8 00 80 d4 7e
+Target:    32964 Encoder:    29882 errors:3/217  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 60 80 00 00 00 00 00 00 00 00 00 00 e0
+[bus:0] Recieved :  3e a4 01 07 ea 21 1a 00 e2 00 c8 d4 b9
+Target:    32864 Encoder:    29922 errors:3/218  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef f9 7f 00 00 00 00 00 00 00 00 00 00 78
+[bus:0] Recieved :  3e a4 01 07 ea 21 14 00 cf 00 0e d5 e7
+Target:    32761 Encoder:    29960 errors:3/219  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 92 7f 00 00 00 00 00 00 00 00 00 00 11
+[bus:0] Recieved :  3e a4 01 07 ea 21 12 00 b1 00 4a d5 03
+Target:    32658 Encoder:    29993 errors:3/220  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 28 7f 00 00 00 00 00 00 00 00 00 00 a7
+[bus:0] Recieved :  3e a4 01 07 ea 21 14 00 8e 00 7a d5 12
+Target:    32552 Encoder:    30020 errors:3/221  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef be 7e 00 00 00 00 00 00 00 00 00 00 3c
+[bus:0] Recieved :  3e a4 01 07 ea 21 18 00 76 00 a2 d5 26
+Target:    32446 Encoder:    30042 errors:3/222  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 52 7e 00 00 00 00 00 00 00 00 00 00 d0
+[bus:0] Recieved :  3e a4 01 07 ea 21 20 00 57 00 c0 d5 2d
+Target:    32338 Encoder:    30058 errors:3/223  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef e4 7d 00 00 00 00 00 00 00 00 00 00 61
+[bus:0] Recieved :  3e a4 01 07 ea 21 27 00 53 00 dd d5 4d
+Target:    32228 Encoder:    30074 errors:3/224  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 75 7d 00 00 00 00 00 00 00 00 00 00 f2
+[bus:0] Recieved :  3e a4 01 07 ea 21 2b 00 5d 00 fd d5 7b
+Target:    32117 Encoder:    30092 errors:3/225  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 05 7d 00 00 00 00 00 00 00 00 00 00 82
+[bus:0] Recieved :  3e a4 01 07 ea 21 2c 00 68 00 20 d6 ab
+Target:    32005 Encoder:    30111 errors:3/226  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 93 7c 00 00 00 00 00 00 00 00 00 00 0f
+[bus:0] Recieved :  3e a4 01 07 ea 21 2c 00 6d 00 45 d6 d5
+Target:    31891 Encoder:    30131 errors:3/227  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 20 7c 00 00 00 00 00 00 00 00 00 00 9c
+[bus:0] Recieved :  3e a4 01 07 ea 21 2b 00 6b 00 6a d6 f7
+Target:    31776 Encoder:    30151 errors:3/228  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef ab 7b 00 00 00 00 00 00 00 00 00 00 26
+[bus:0] Recieved :  3e a4 01 07 ea 21 2a 00 62 00 8b d6 0e
+Target:    31659 Encoder:    30170 errors:3/229  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 35 7b 00 00 00 00 00 00 00 00 00 00 b0
+[bus:0] Recieved :  3e a4 01 07 ea 21 2a 00 55 00 a6 d6 1c
+Target:    31541 Encoder:    30184 errors:3/230  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef be 7a 00 00 00 00 00 00 00 00 00 00 38
+[bus:0] Recieved :  3e a4 01 07 ea 21 2a 00 48 00 c1 d6 2a
+Target:    31422 Encoder:    30199 errors:3/231  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 46 7a 00 00 00 00 00 00 00 00 00 00 c0
+[bus:0] Recieved :  3e a4 01 07 ea 21 2b 00 3f 00 d7 d6 38
+Target:    31302 Encoder:    30211 errors:3/232  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef cc 79 00 00 00 00 00 00 00 00 00 00 45
+[bus:0] Recieved :  3e a4 01 07 ea 21 2b 00 3e 00 ee d6 4e
+Target:    31180 Encoder:    30224 errors:3/233  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 50 79 00 00 00 00 00 00 00 00 00 00 c9
+[bus:0] Recieved :  3e a4 01 07 ea 21 29 00 3f 00 03 d7 63
+Target:    31056 Encoder:    30236 errors:3/234  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d4 78 00 00 00 00 00 00 00 00 00 00 4c
+[bus:0] Recieved :  3e a4 01 07 ea 21 27 00 3b 00 17 d7 71
+Target:    30932 Encoder:    30247 errors:3/235  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 56 78 00 00 00 00 00 00 00 00 00 00 ce
+[bus:0] Recieved :  3e a4 01 07 ea 21 25 00 34 00 27 d7 78
+Target:    30806 Encoder:    30255 errors:3/236  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d7 77 00 00 00 00 00 00 00 00 00 00 4e
+[bus:0] Recieved :  3e a4 01 07 ea 21 24 00 28 00 36 d7 7a
+Target:    30679 Encoder:    30264 errors:3/237  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 56 77 00 00 00 00 00 00 00 00 00 00 cd
+[bus:0] Recieved :  3e a4 01 07 ea 21 22 00 1e 00 3f d7 77
+Target:    30550 Encoder:    30268 errors:3/238  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d5 76 00 00 00 00 00 00 00 00 00 00 4b
+[bus:0] Recieved :  3e a4 01 07 ea 21 21 00 17 00 47 d7 77
+Target:    30421 Encoder:    30273 errors:3/239  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 52 76 00 00 00 00 00 00 00 00 00 00 c8
+[bus:0] Recieved :  3e a4 01 07 ea 21 20 00 0b 00 4b d7 6e
+Target:    30290 Encoder:    30275 errors:3/240  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef ce 75 00 00 00 00 00 00 00 00 00 00 43
+[bus:0] Recieved :  3e a4 01 07 ea 21 1f 00 04 00 4e d7 69
+Target:    30158 Encoder:    30277 errors:3/241  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 49 75 00 00 00 00 00 00 00 00 00 00 be
+[bus:0] Recieved :  3e a4 01 07 ea 21 1d 00 00 00 4e d7 63
+Target:    30025 Encoder:    30277 errors:3/242  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef c2 74 00 00 00 00 00 00 00 00 00 00 36
+[bus:0] Recieved :  3e a4 01 07 ea 21 1a 00 00 00 4e d7 60
+Target:    29890 Encoder:    30277 errors:3/243  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 3a 74 00 00 00 00 00 00 00 00 00 00 ae
+[bus:0] Recieved :  3e a4 01 07 ea 21 19 00 ee ff 47 d7 45
+Target:    29754 Encoder:    30273 errors:3/244  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b1 73 00 00 00 00 00 00 00 00 00 00 24
+[bus:0] Recieved :  3e a4 01 07 ea 21 18 00 e5 ff 3e d7 32
+Target:    29617 Encoder:    30268 errors:3/245  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 27 73 00 00 00 00 00 00 00 00 00 00 9a
+[bus:0] Recieved :  3e a4 01 07 ea 21 16 00 e6 ff 35 d7 28
+Target:    29479 Encoder:    30263 errors:3/246  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9c 72 00 00 00 00 00 00 00 00 00 00 0e
+[bus:0] Recieved :  3e a4 01 07 ea 21 14 00 e0 ff 29 d7 14
+Target:    29340 Encoder:    30256 errors:3/247  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 10 72 00 00 00 00 00 00 00 00 00 00 82
+[bus:0] Recieved :  3e a4 01 07 ea 21 11 00 da ff 1c d7 fe
+Target:    29200 Encoder:    30249 errors:3/248  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 82 71 00 00 00 00 00 00 00 00 00 00 f3
+[bus:0] Recieved :  3e a4 01 07 ea 21 0e 00 d2 ff 0c d7 e3
+Target:    29058 Encoder:    30240 errors:3/249  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef f4 70 00 00 00 00 00 00 00 00 00 00 64
+[bus:0] Recieved :  3e a4 01 07 ea 21 0c 00 c8 ff f8 d6 c2
+Target:    28916 Encoder:    30229 errors:3/250  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 64 70 00 00 00 00 00 00 00 00 00 00 d4
+[bus:0] Recieved :  3e a4 01 07 ea 21 0a 00 bc ff e1 d6 9d
+Target:    28772 Encoder:    30217 errors:3/251  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d3 6f 00 00 00 00 00 00 00 00 00 00 42
+[bus:0] Recieved :  3e a4 01 07 ea 21 08 00 b3 ff c6 d6 77
+Target:    28627 Encoder:    30202 errors:3/252  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 41 6f 00 00 00 00 00 00 00 00 00 00 b0
+[bus:0] Recieved :  3e a4 01 07 ea 21 06 00 ae ff ac d6 56
+Target:    28481 Encoder:    30188 errors:3/253  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef af 6e 00 00 00 00 00 00 00 00 00 00 1d
+[bus:0] Recieved :  3e a4 01 07 ea 21 04 00 aa ff 8e d6 32
+Target:    28335 Encoder:    30171 errors:3/254  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 1b 6e 00 00 00 00 00 00 00 00 00 00 89
+[bus:0] Recieved :  3e a4 01 07 ea 21 02 00 a2 ff 6d d6 07
+Target:    28187 Encoder:    30153 errors:3/255  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 86 6d 00 00 00 00 00 00 00 00 00 00 f3
+[bus:0] Recieved :  3e a4 01 07 ea 21 ff ff a2 ff 4d d6 e3
+Target:    28038 Encoder:    30136 errors:3/256  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef f0 6c 00 00 00 00 00 00 00 00 00 00 5c
+[bus:0] Recieved :  3e a4 01 07 ea 21 fb ff 9e ff 2b d6 b9
+Target:    27888 Encoder:    30117 errors:3/257  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 59 6c 00 00 00 00 00 00 00 00 00 00 c5
+[bus:0] Recieved :  3e a4 01 07 ea 21 f6 ff 9c ff 08 d6 8f
+Target:    27737 Encoder:    30098 errors:3/258  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef c1 6b 00 00 00 00 00 00 00 00 00 00 2c
+[bus:0] Recieved :  3e a4 01 07 ea 21 f1 ff 97 ff e4 d5 60
+Target:    27585 Encoder:    30078 errors:3/259  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 28 6b 00 00 00 00 00 00 00 00 00 00 93
+[bus:0] Recieved :  3e a4 01 07 ea 21 ec ff 8e ff bd d5 2b
+Target:    27432 Encoder:    30056 errors:3/260  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 8f 6a 00 00 00 00 00 00 00 00 00 00 f9
+[bus:0] Recieved :  3e a4 01 07 ea 21 e7 ff 89 ff 94 d5 f8
+Target:    27279 Encoder:    30034 errors:3/261  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef f4 69 00 00 00 00 00 00 00 00 00 00 5d
+[bus:0] Recieved :  3e a4 01 07 ea 21 e2 ff 7a ff 66 d5 b6
+Target:    27124 Encoder:    30009 errors:3/262  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 58 69 00 00 00 00 00 00 00 00 00 00 c1
+[bus:0] Recieved :  3e a4 01 07 ea 21 dd ff 79 ff 38 d5 82
+Target:    26968 Encoder:    29983 errors:3/263  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef bc 68 00 00 00 00 00 00 00 00 00 00 24
+[bus:0] Recieved :  3e a4 01 07 ea 21 d6 ff 79 ff 0a d5 4d
+Target:    26812 Encoder:    29958 errors:3/264  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 1e 68 00 00 00 00 00 00 00 00 00 00 86
+[bus:0] Recieved :  3e a4 01 07 ea 21 d0 ff 66 ff ca d4 f3
+Target:    26654 Encoder:    29923 errors:3/265  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 80 67 00 00 00 00 00 00 00 00 00 00 e7
+[bus:0] Recieved :  3e a4 01 07 ea 21 ce ff 4a ff 84 d4 8f
+Target:    26496 Encoder:    29885 errors:3/266  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef e1 66 00 00 00 00 00 00 00 00 00 00 47
+[bus:0] Recieved :  3e a4 01 07 ea 21 d0 ff 30 ff 2f d4 22
+Target:    26337 Encoder:    29838 errors:3/267  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 41 66 00 00 00 00 00 00 00 00 00 00 a7
+[bus:0] Recieved :  3e a4 01 07 ea 21 d3 ff 1a ff d2 d3 b1
+Target:    26177 Encoder:    29787 errors:3/268  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef a0 65 00 00 00 00 00 00 00 00 00 00 05
+[bus:0] Recieved :  3e a4 01 07 ea 21 d9 ff 0b ff 6e d3 44
+Target:    26016 Encoder:    29732 errors:3/269  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef ff 64 00 00 00 00 00 00 00 00 00 00 63
+[bus:0] Recieved :  3e a4 01 07 ea 21 dd ff 08 ff 12 d3 e9
+Target:    25855 Encoder:    29681 errors:3/270  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 5c 64 00 00 00 00 00 00 00 00 00 00 c0
+[bus:0] Recieved :  3e a4 01 07 ea 21 e1 ff 00 ff c1 d2 93
+Target:    25692 Encoder:    29637 errors:3/271  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b9 63 00 00 00 00 00 00 00 00 00 00 1c
+[bus:0] Recieved :  3e a4 01 07 ea 21 e1 ff 15 ff 71 d2 58
+Target:    25529 Encoder:    29593 errors:3/272  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 15 63 00 00 00 00 00 00 00 00 00 00 78
+[bus:0] Recieved :  3e a4 01 07 ea 21 dc ff 2b ff 28 d2 20
+Target:    25365 Encoder:    29553 errors:3/273  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 71 62 00 00 00 00 00 00 00 00 00 00 d3
+[bus:0] Recieved :  3e a4 01 07 ea 21 d6 ff 33 ff e3 d1 dc
+Target:    25201 Encoder:    29515 errors:3/274  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef cb 61 00 00 00 00 00 00 00 00 00 00 2c
+[bus:0] Recieved :  3e a4 01 07 ea 21 cd ff 3f ff a1 d1 9d
+Target:    25035 Encoder:    29479 errors:3/275  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 25 61 00 00 00 00 00 00 00 00 00 00 86
+[bus:0] Recieved :  3e a4 01 07 ea 21 c2 ff 3f ff 5e d1 4f
+Target:    24869 Encoder:    29442 errors:3/276  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 7f 60 00 00 00 00 00 00 00 00 00 00 df
+[bus:0] Recieved :  3e a4 01 07 ea 21 ba ff 2d ff 15 d1 ec
+Target:    24703 Encoder:    29402 errors:3/277  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d7 5f 00 00 00 00 00 00 00 00 00 00 36
+[bus:0] Recieved :  3e a4 01 07 ea 21 b5 ff 0e ff c2 d0 74
+Target:    24535 Encoder:    29356 errors:3/278  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 2f 5f 00 00 00 00 00 00 00 00 00 00 8e
+[bus:0] Recieved :  3e a4 01 07 ea 21 b4 ff e8 fe 62 d0 ec
+Target:    24367 Encoder:    29303 errors:3/279  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 87 5e 00 00 00 00 00 00 00 00 00 00 e5
+[bus:0] Recieved :  3e a4 01 07 ea 21 b5 ff d9 fe fd cf 78
+Target:    24199 Encoder:    29248 errors:3/280  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef dd 5d 00 00 00 00 00 00 00 00 00 00 3a
+[bus:0] Recieved :  3e a4 01 07 ea 21 b7 ff c9 fe 7e cf eb
+Target:    24029 Encoder:    29178 errors:3/281  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 33 5d 00 00 00 00 00 00 00 00 00 00 90
+[bus:0] Recieved :  3e a4 01 07 ea 21 bb ff b8 fe ff ce 5e
+Target:    23859 Encoder:    29108 errors:3/282  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 89 5c 00 00 00 00 00 00 00 00 00 00 e5
+[bus:0] Recieved :  3e a4 01 07 ea 21 c0 ff ac fe 74 ce cc
+Target:    23689 Encoder:    29032 errors:3/283  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef de 5b 00 00 00 00 00 00 00 00 00 00 39
+[bus:0] Recieved :  3e a4 01 07 ea 21 c6 ff a1 fe e4 cd 36
+Target:    23518 Encoder:    28953 errors:3/284  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 32 5b 00 00 00 00 00 00 00 00 00 00 8d
+[bus:0] Recieved :  3e a4 01 07 ea 21 d1 ff 8a fe 41 cd 87
+Target:    23346 Encoder:    28863 errors:3/285  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 86 5a 00 00 00 00 00 00 00 00 00 00 e0
+[bus:0] Recieved :  3e a4 01 07 ea 21 d9 ff 81 fe bf cc 03
+Target:    23174 Encoder:    28792 errors:3/286  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d9 59 00 00 00 00 00 00 00 00 00 00 32
+[bus:0] Recieved :  3e a4 01 07 ea 21 e0 ff 81 fe 3b cc 86
+Target:    23001 Encoder:    28719 errors:3/287  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 2c 59 00 00 00 00 00 00 00 00 00 00 85
+[bus:0] Recieved :  3e a4 01 07 ea 21 e7 ff 86 fe b2 cb 08
+Target:    22828 Encoder:    28644 errors:3/288  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 7f 58 00 00 00 00 00 00 00 00 00 00 d7
+[bus:0] Recieved :  3e a4 01 07 ea 21 e7 ff a4 fe 44 cb b8
+Target:    22655 Encoder:    28584 errors:3/289  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d1 57 00 00 00 00 00 00 00 00 00 00 28
+[bus:0] Recieved :  3e a4 01 07 ea 21 df ff d5 fe de ca 7a
+Target:    22481 Encoder:    28528 errors:3/290  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 22 57 00 00 00 00 00 00 00 00 00 00 79
+[bus:0] Recieved :  3e a4 01 07 ea 21 d2 ff f2 fe 81 ca 2d
+Target:    22306 Encoder:    28477 errors:3/291  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 73 56 00 00 00 00 00 00 00 00 00 00 c9
+[bus:0] Recieved :  3e a4 01 07 ea 21 c5 ff e7 fe 21 ca b5
+Target:    22131 Encoder:    28424 errors:3/292  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef c4 55 00 00 00 00 00 00 00 00 00 00 19
+[bus:0] Recieved :  3e a4 01 07 ea 21 be ff c2 fe b3 c9 1a
+Target:    21956 Encoder:    28363 errors:3/293  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 14 55 00 00 00 00 00 00 00 00 00 00 69
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff 98 fe 37 c9 72
+Target:    21780 Encoder:    28295 errors:3/294  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 64 54 00 00 00 00 00 00 00 00 00 00 b8
+[bus:0] Recieved :  3e a4 01 07 ea 21 c1 ff 60 fe a9 c8 b0
+Target:    21604 Encoder:    28217 errors:3/295  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b3 53 00 00 00 00 00 00 00 00 00 00 06
+[bus:0] Recieved :  3e a4 01 07 ea 21 c7 ff 5a fe 19 c8 20
+Target:    21427 Encoder:    28138 errors:3/296  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 02 53 00 00 00 00 00 00 00 00 00 00 55
+[bus:0] Recieved :  3e a4 01 07 ea 21 c6 ff 78 fe 93 c7 b6
+Target:    21250 Encoder:    28065 errors:3/297  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 51 52 00 00 00 00 00 00 00 00 00 00 a3
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff af fe 21 c7 71
+Target:    21073 Encoder:    28002 errors:3/298  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef a0 51 00 00 00 00 00 00 00 00 00 00 f1
+[bus:0] Recieved :  3e a4 01 07 ea 21 aa ff df fe be c6 2b
+Target:    20896 Encoder:    27948 errors:3/299  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef ee 50 00 00 00 00 00 00 00 00 00 00 3e
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff bd fe 4e c6 8b
+Target:    20718 Encoder:    27886 errors:3/300  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 3c 50 00 00 00 00 00 00 00 00 00 00 8c
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff 81 fe ca c5 ce
+Target:    20540 Encoder:    27814 errors:3/301  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 89 4f 00 00 00 00 00 00 00 00 00 00 d8
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff 62 fe 3c c5 23
+Target:    20361 Encoder:    27736 errors:3/302  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d7 4e 00 00 00 00 00 00 00 00 00 00 25
+[bus:0] Recieved :  3e a4 01 07 ea 21 a5 ff 3e fe a2 c4 67
+Target:    20183 Encoder:    27651 errors:3/303  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 24 4e 00 00 00 00 00 00 00 00 00 00 72
+[bus:0] Recieved :  3e a4 01 07 ea 21 ad ff 0f fe f7 c3 94
+Target:    20004 Encoder:    27557 errors:3/304  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 71 4d 00 00 00 00 00 00 00 00 00 00 be
+[bus:0] Recieved :  3e a4 01 07 ea 21 b9 ff f6 fd 45 c3 d4
+Target:    19825 Encoder:    27459 errors:3/305  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef be 4c 00 00 00 00 00 00 00 00 00 00 0a
+[bus:0] Recieved :  3e a4 01 07 ea 21 c2 ff fb fd a0 c2 3c
+Target:    19646 Encoder:    27369 errors:3/306  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 0b 4c 00 00 00 00 00 00 00 00 00 00 57
+[bus:0] Recieved :  3e a4 01 07 ea 21 cb ff fa fd ef c1 92
+Target:    19467 Encoder:    27271 errors:3/307  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 57 4b 00 00 00 00 00 00 00 00 00 00 a2
+[bus:0] Recieved :  3e a4 01 07 ea 21 d2 ff 04 fe 42 c1 f7
+Target:    19287 Encoder:    27176 errors:3/308  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef a3 4a 00 00 00 00 00 00 00 00 00 00 ed
+[bus:0] Recieved :  3e a4 01 07 ea 21 d5 ff 18 fe 9c c0 67
+Target:    19107 Encoder:    27085 errors:3/309  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef f0 49 00 00 00 00 00 00 00 00 00 00 39
+[bus:0] Recieved :  3e a4 01 07 ea 21 d3 ff 39 fe 01 c0 eb
+Target:    18928 Encoder:    27000 errors:3/310  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 3c 49 00 00 00 00 00 00 00 00 00 00 85
+[bus:0] Recieved :  3e a4 01 07 ea 21 cc ff 4f fe 63 bf 5b
+Target:    18748 Encoder:    26913 errors:3/311  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 88 48 00 00 00 00 00 00 00 00 00 00 d0
+[bus:0] Recieved :  3e a4 01 07 ea 21 c5 ff 4c fe ce be bb
+Target:    18568 Encoder:    26831 errors:3/312  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef d4 47 00 00 00 00 00 00 00 00 00 00 1b
+[bus:0] Recieved :  3e a4 01 07 ea 21 bf ff 46 fe 37 be 18
+Target:    18388 Encoder:    26748 errors:3/313  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 20 47 00 00 00 00 00 00 00 00 00 00 67
+[bus:0] Recieved :  3e a4 01 07 ea 21 b7 ff 48 fe a1 bd 7b
+Target:    18208 Encoder:    26666 errors:3/314  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 6c 46 00 00 00 00 00 00 00 00 00 00 b2
+[bus:0] Recieved :  3e a4 01 07 ea 21 ac ff 5b fe 08 bd ea
+Target:    18028 Encoder:    26582 errors:3/315  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b8 45 00 00 00 00 00 00 00 00 00 00 fd
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff 73 fe 80 bc 69
+Target:    17848 Encoder:    26507 errors:3/316  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 04 45 00 00 00 00 00 00 00 00 00 00 49
+[bus:0] Recieved :  3e a4 01 07 ea 21 9a ff 6e fe f6 bb d7
+Target:    17668 Encoder:    26432 errors:3/317  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 50 44 00 00 00 00 00 00 00 00 00 00 94
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 5e fe 68 bb 3a
+Target:    17488 Encoder:    26354 errors:3/318  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 9c 43 00 00 00 00 00 00 00 00 00 00 df
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 45 fe cf ba 89
+Target:    17308 Encoder:    26269 errors:3/319  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef e9 42 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff 0e fe 24 ba aa
+Target:    17129 Encoder:    26176 errors:3/320  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 35 42 00 00 00 00 00 00 00 00 00 00 77
+[bus:0] Recieved :  3e a4 01 07 ea 21 a5 ff db fd 68 b9 be
+Target:    16949 Encoder:    26072 errors:3/321  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 81 41 00 00 00 00 00 00 00 00 00 00 c2
+[bus:0] Recieved :  3e a4 01 07 ea 21 ac ff c0 fd 96 b8 d7
+Target:    16769 Encoder:    25957 errors:3/322  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef ce 40 00 00 00 00 00 00 00 00 00 00 0e
+[bus:0] Recieved :  3e a4 01 07 ea 21 b0 ff c6 fd c6 b7 10
+Target:    16590 Encoder:    25843 errors:3/323  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 1a 40 00 00 00 00 00 00 00 00 00 00 5a
+[bus:0] Recieved :  3e a4 01 07 ea 21 b6 ff b7 fd 0b b7 4c
+Target:    16410 Encoder:    25740 errors:3/324  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 67 3f 00 00 00 00 00 00 00 00 00 00 a6
+[bus:0] Recieved :  3e a4 01 07 ea 21 c0 ff 9e fd 2d b6 5e
+Target:    16231 Encoder:    25618 errors:3/325  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef b4 3e 00 00 00 00 00 00 00 00 00 00 f2
+[bus:0] Recieved :  3e a4 01 07 ea 21 ca ff 92 fd 4b b5 79
+Target:    16052 Encoder:    25494 errors:3/326  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 01 3e 00 00 00 00 00 00 00 00 00 00 3f
+[bus:0] Recieved :  3e a4 01 07 ea 21 d0 ff b5 fd 84 b4 da
+Target:    15873 Encoder:    25385 errors:3/327  (errors in checksum of second part of response: 3)
+[bus:0] Sending :  3e a4 01 0c ef 4f 3d 00 00 00 00 00 00 00 00 00 00 8c
+[bus:0] Recieved :  3e a4 01 07 ea 21 c6 ff 0a fe db b3 7f
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 b1 b2 8d b7 dc 04 87
+Encoder:45745 Raw:46989 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef 9c 3c 00 00 00 00 00 00 00 00 00 00 d8
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 83 00 da b2 30
+Target:    15516 Encoder:    25151 errors:4/329  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef ea 3b 00 00 00 00 00 00 00 00 00 00 25
+[bus:0] Recieved :  3e a4 01 07 ea 21 71 ff 3d 00 e6 b2 66
+Target:    15338 Encoder:    25157 errors:4/330  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 38 3b 00 00 00 00 00 00 00 00 00 00 73
+[bus:0] Recieved :  3e a4 01 07 ea 21 9a ff 32 fe 42 b2 de
+Target:    15160 Encoder:    25067 errors:4/331  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 86 3a 00 00 00 00 00 00 00 00 00 00 c0
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff e0 fd 7d b1 cb
+Target:    14982 Encoder:    24959 errors:4/332  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef d5 39 00 00 00 00 00 00 00 00 00 00 0e
+[bus:0] Recieved :  3e a4 01 07 ea 21 96 ff 58 fe ec b0 a8
+Target:    14805 Encoder:    24879 errors:4/333  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 24 39 00 00 00 00 00 00 00 00 00 00 5d
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff 33 fe 4c b0 e5
+Target:    14628 Encoder:    24791 errors:4/334  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 74 38 00 00 00 00 00 00 00 00 00 00 ac
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff e0 fd 9d af e8
+Target:    14452 Encoder:    24695 errors:4/335  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef c3 37 00 00 00 00 00 00 00 00 00 00 fa
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff b1 fd c6 ae e4
+Target:    14275 Encoder:    24577 errors:4/336  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 13 37 00 00 00 00 00 00 00 00 00 00 4a
+[bus:0] Recieved :  3e a4 01 07 ea 21 a1 ff bc fd 0e ae 36
+Target:    14099 Encoder:    24476 errors:4/337  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 64 36 00 00 00 00 00 00 00 00 00 00 9a
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff c1 fd 48 ad 73
+Target:    13924 Encoder:    24367 errors:4/338  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef b5 35 00 00 00 00 00 00 00 00 00 00 ea
+[bus:0] Recieved :  3e a4 01 07 ea 21 a3 ff 94 fd 73 ac 73
+Target:    13749 Encoder:    24250 errors:4/339  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 06 35 00 00 00 00 00 00 00 00 00 00 3b
+[bus:0] Recieved :  3e a4 01 07 ea 21 b1 ff 42 fd 82 ab 3d
+Target:    13574 Encoder:    24118 errors:4/340  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 58 34 00 00 00 00 00 00 00 00 00 00 8c
+[bus:0] Recieved :  3e a4 01 07 ea 21 c7 ff 0b fd 81 aa 1a
+Target:    13400 Encoder:    23977 errors:4/341  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef aa 33 00 00 00 00 00 00 00 00 00 00 dd
+[bus:0] Recieved :  3e a4 01 07 ea 21 c8 ff 8d fd ad a9 c8
+Target:    13226 Encoder:    23860 errors:4/342  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef fd 32 00 00 00 00 00 00 00 00 00 00 2f
+[bus:0] Recieved :  3e a4 01 07 ea 21 ae ff 33 fe 11 a9 b9
+Target:    13053 Encoder:    23774 errors:4/343  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 50 32 00 00 00 00 00 00 00 00 00 00 82
+[bus:0] Recieved :  3e a4 01 07 ea 21 92 ff 63 fe 81 a8 3c
+Target:    12880 Encoder:    23695 errors:4/344  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef a4 31 00 00 00 00 00 00 00 00 00 00 d5
+[bus:0] Recieved :  3e a4 01 07 ea 21 99 ff ff fd d1 a7 2d
+Target:    12708 Encoder:    23599 errors:4/345  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f8 30 00 00 00 00 00 00 00 00 00 00 28
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff e5 fd 19 a7 5d
+Target:    12536 Encoder:    23498 errors:4/346  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 4d 30 00 00 00 00 00 00 00 00 00 00 7d
+[bus:0] Recieved :  3e a4 01 07 ea 21 99 ff f7 fd 67 a6 ba
+Target:    12365 Encoder:    23400 errors:4/347  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef a2 2f 00 00 00 00 00 00 00 00 00 00 d1
+[bus:0] Recieved :  3e a4 01 07 ea 21 9a ff e8 fd af a5 f3
+Target:    12194 Encoder:    23299 errors:4/348  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f8 2e 00 00 00 00 00 00 00 00 00 00 26
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff c9 fd f9 a4 1f
+Target:    12024 Encoder:    23199 errors:4/349  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 4e 2e 00 00 00 00 00 00 00 00 00 00 7c
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff a7 fd 04 a4 0b
+Target:    11854 Encoder:    23064 errors:4/350  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef a5 2d 00 00 00 00 00 00 00 00 00 00 d2
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 99 fd 31 a3 29
+Target:    11685 Encoder:    22948 errors:4/351  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef fd 2c 00 00 00 00 00 00 00 00 00 00 29
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff 79 fd 53 a2 2d
+Target:    11517 Encoder:    22826 errors:4/352  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 56 2c 00 00 00 00 00 00 00 00 00 00 82
+[bus:0] Recieved :  3e a4 01 07 ea 21 a9 ff 35 fd 5d a1 f9
+Target:    11350 Encoder:    22691 errors:4/353  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef af 2b 00 00 00 00 00 00 00 00 00 00 da
+[bus:0] Recieved :  3e a4 01 07 ea 21 bf ff da fc 4b a0 a0
+Target:    11183 Encoder:    22541 errors:4/354  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 08 2b 00 00 00 00 00 00 00 00 00 00 33
+[bus:0] Recieved :  3e a4 01 07 ea 21 c6 ff 43 fd 5f 9f 24
+Target:    11016 Encoder:    22411 errors:4/355  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 63 2a 00 00 00 00 00 00 00 00 00 00 8d
+[bus:0] Recieved :  3e a4 01 07 ea 21 ac ff 07 fe b4 9e 23
+Target:    10851 Encoder:    22317 errors:4/356  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef be 29 00 00 00 00 00 00 00 00 00 00 e7
+[bus:0] Recieved :  3e a4 01 07 ea 21 90 ff 47 fe 1c 9e af
+Target:    10686 Encoder:    22234 errors:4/357  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 1a 29 00 00 00 00 00 00 00 00 00 00 43
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff e3 fd 62 9d 97
+Target:    10522 Encoder:    22131 errors:4/358  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 77 28 00 00 00 00 00 00 00 00 00 00 9f
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff aa fd 97 9c 96
+Target:    10359 Encoder:    22020 errors:4/359  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef d4 27 00 00 00 00 00 00 00 00 00 00 fb
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff bb fd df 9b ed
+Target:    10196 Encoder:    21919 errors:4/360  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 32 27 00 00 00 00 00 00 00 00 00 00 59
+[bus:0] Recieved :  3e a4 01 07 ea 21 99 ff cb fd 1d 9b 39
+Target:    10034 Encoder:    21812 errors:4/361  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 91 26 00 00 00 00 00 00 00 00 00 00 b7
+[bus:0] Recieved :  3e a4 01 07 ea 21 9a ff bc fd 57 9a 64
+Target:     9873 Encoder:    21704 errors:4/362  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f1 25 00 00 00 00 00 00 00 00 00 00 16
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff 9f fd 87 99 78
+Target:     9713 Encoder:    21589 errors:4/363  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 52 25 00 00 00 00 00 00 00 00 00 00 77
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 94 fd b3 98 99
+Target:     9554 Encoder:    21473 errors:4/364  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef b3 24 00 00 00 00 00 00 00 00 00 00 d7
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff 6b fd cf 97 8e
+Target:     9395 Encoder:    21348 errors:4/365  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 15 24 00 00 00 00 00 00 00 00 00 00 39
+[bus:0] Recieved :  3e a4 01 07 ea 21 ac ff 01 fd c9 96 29
+Target:     9237 Encoder:    21204 errors:4/366  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 79 23 00 00 00 00 00 00 00 00 00 00 9c
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff de fc b9 95 04
+Target:     9081 Encoder:    21054 errors:4/367  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef dd 22 00 00 00 00 00 00 00 00 00 00 ff
+[bus:0] Recieved :  3e a4 01 07 ea 21 b9 ff 56 fd d3 94 93
+Target:     8925 Encoder:    20928 errors:4/368  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 42 22 00 00 00 00 00 00 00 00 00 00 64
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff fc fd 24 94 6c
+Target:     8770 Encoder:    20832 errors:4/369  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef a8 21 00 00 00 00 00 00 00 00 00 00 c9
+[bus:0] Recieved :  3e a4 01 07 ea 21 93 ff 07 fe 75 93 c0
+Target:     8616 Encoder:    20736 errors:4/370  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 0e 21 00 00 00 00 00 00 00 00 00 00 2f
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff 95 fd a1 92 81
+Target:     8462 Encoder:    20619 errors:4/371  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 76 20 00 00 00 00 00 00 00 00 00 00 96
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 9e fd d1 91 b8
+Target:     8310 Encoder:    20505 errors:4/372  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef df 1f 00 00 00 00 00 00 00 00 00 00 fe
+[bus:0] Recieved :  3e a4 01 07 ea 21 99 ff ac fd 06 91 f9
+Target:     8159 Encoder:    20393 errors:4/373  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 49 1f 00 00 00 00 00 00 00 00 00 00 68
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff b8 fd 3e 90 3b
+Target:     8009 Encoder:    20284 errors:4/374  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef b4 1e 00 00 00 00 00 00 00 00 00 00 d2
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff b3 fd 81 8f 78
+Target:     7860 Encoder:    20180 errors:4/375  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 1f 1e 00 00 00 00 00 00 00 00 00 00 3d
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 8d fd aa 8e 7d
+Target:     7711 Encoder:    20062 errors:4/376  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 8c 1d 00 00 00 00 00 00 00 00 00 00 a9
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff 53 fd bf 8d 5c
+Target:     7564 Encoder:    19933 errors:4/377  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef fa 1c 00 00 00 00 00 00 00 00 00 00 16
+[bus:0] Recieved :  3e a4 01 07 ea 21 a6 ff 10 fd bd 8c 1c
+Target:     7418 Encoder:    19791 errors:4/378  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 69 1c 00 00 00 00 00 00 00 00 00 00 85
+[bus:0] Recieved :  3e a4 01 07 ea 21 ae ff fa fc b6 8b 05
+Target:     7273 Encoder:    19646 errors:4/379  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef d9 1b 00 00 00 00 00 00 00 00 00 00 f4
+[bus:0] Recieved :  3e a4 01 07 ea 21 ad ff 38 fd c4 8a 50
+Target:     7129 Encoder:    19513 errors:4/380  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 4a 1b 00 00 00 00 00 00 00 00 00 00 65
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 93 fd f1 89 c7
+Target:     6986 Encoder:    19398 errors:4/381  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef bc 1a 00 00 00 00 00 00 00 00 00 00 d6
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff b5 fd 28 89 1b
+Target:     6844 Encoder:    19287 errors:4/382  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 30 1a 00 00 00 00 00 00 00 00 00 00 4a
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 86 fd 50 88 16
+Target:     6704 Encoder:    19168 errors:4/383  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef a4 19 00 00 00 00 00 00 00 00 00 00 bd
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 8c fd 7a 87 45
+Target:     6564 Encoder:    19051 errors:4/384  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 1a 19 00 00 00 00 00 00 00 00 00 00 33
+[bus:0] Recieved :  3e a4 01 07 ea 21 9a ff 96 fd a7 86 7a
+Target:     6426 Encoder:    18935 errors:4/385  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 90 18 00 00 00 00 00 00 00 00 00 00 a8
+[bus:0] Recieved :  3e a4 01 07 ea 21 97 ff b4 fd df 85 cc
+Target:     6288 Encoder:    18825 errors:4/386  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 08 18 00 00 00 00 00 00 00 00 00 00 20
+[bus:0] Recieved :  3e a4 01 07 ea 21 96 ff be fd 19 85 0f
+Target:     6152 Encoder:    18716 errors:4/387  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 81 17 00 00 00 00 00 00 00 00 00 00 98
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 7f fd 3c 84 f7
+Target:     6017 Encoder:    18595 errors:4/388  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef fc 16 00 00 00 00 00 00 00 00 00 00 12
+[bus:0] Recieved :  3e a4 01 07 ea 21 a1 ff 32 fd 37 83 aa
+Target:     5884 Encoder:    18452 errors:4/389  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 77 16 00 00 00 00 00 00 00 00 00 00 8d
+[bus:0] Recieved :  3e a4 01 07 ea 21 a3 ff 1e fd 3a 82 9a
+Target:     5751 Encoder:    18313 errors:4/390  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f4 15 00 00 00 00 00 00 00 00 00 00 09
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff 29 fd 43 81 ac
+Target:     5620 Encoder:    18177 errors:4/391  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 72 15 00 00 00 00 00 00 00 00 00 00 87
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff 44 fd 23 80 a4
+Target:     5490 Encoder:    18019 errors:4/392  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f1 14 00 00 00 00 00 00 00 00 00 00 05
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 68 fd 12 7f b3
+Target:     5361 Encoder:    17869 errors:4/393  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 71 14 00 00 00 00 00 00 00 00 00 00 85
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff 75 fd 16 7e c2
+Target:     5233 Encoder:    17730 errors:4/394  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f3 13 00 00 00 00 00 00 00 00 00 00 06
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff 7c fd 0e 7d c0
+Target:     5107 Encoder:    17585 errors:4/395  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 76 13 00 00 00 00 00 00 00 00 00 00 89
+[bus:0] Recieved :  3e a4 01 07 ea 21 9a ff 97 fd 10 7c da
+Target:     4982 Encoder:    17446 errors:4/396  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef fa 12 00 00 00 00 00 00 00 00 00 00 0c
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff b1 fd 10 7b f1
+Target:     4858 Encoder:    17305 errors:4/397  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 80 12 00 00 00 00 00 00 00 00 00 00 92
+[bus:0] Recieved :  3e a4 01 07 ea 21 99 ff a3 fd 4e 7a 21
+Target:     4736 Encoder:    17199 errors:4/398  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 07 12 00 00 00 00 00 00 00 00 00 00 19
+[bus:0] Recieved :  3e a4 01 07 ea 21 9e ff 62 fd 68 79 fe
+Target:     4615 Encoder:    17072 errors:4/399  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 8f 11 00 00 00 00 00 00 00 00 00 00 a0
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff 34 fd 74 78 df
+Target:     4495 Encoder:    16938 errors:4/400  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 19 11 00 00 00 00 00 00 00 00 00 00 2a
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 52 fd 8a 77 0f
+Target:     4377 Encoder:    16810 errors:4/401  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef a4 10 00 00 00 00 00 00 00 00 00 00 b4
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 5a fd a3 76 2f
+Target:     4260 Encoder:    16683 errors:4/402  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 30 10 00 00 00 00 00 00 00 00 00 00 40
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 58 fd ba 75 43
+Target:     4144 Encoder:    16555 errors:4/403  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef be 0f 00 00 00 00 00 00 00 00 00 00 cd
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff 4a fd ce 74 49
+Target:     4030 Encoder:    16425 errors:4/404  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 4d 0f 00 00 00 00 00 00 00 00 00 00 5c
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 57 fd e6 73 6c
+Target:     3917 Encoder:    16298 errors:4/405  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef de 0e 00 00 00 00 00 00 00 00 00 00 ec
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 70 fd 06 73 a3
+Target:     3806 Encoder:    16175 errors:4/406  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 70 0e 00 00 00 00 00 00 00 00 00 00 7e
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 87 fd 2e 72 df
+Target:     3696 Encoder:    16056 errors:4/407  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 03 0e 00 00 00 00 00 00 00 00 00 00 11
+[bus:0] Recieved :  3e a4 01 07 ea 21 99 ff a8 fd 62 71 31
+Target:     3587 Encoder:    15944 errors:4/408  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 98 0d 00 00 00 00 00 00 00 00 00 00 a5
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff ad fd a4 70 76
+Target:     3480 Encoder:    15840 errors:4/409  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 2f 0d 00 00 00 00 00 00 00 00 00 00 3c
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 88 fd cb 6f 7a
+Target:     3375 Encoder:    15720 errors:4/410  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef c7 0c 00 00 00 00 00 00 00 00 00 00 d3
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 59 fd e3 6e 66
+Target:     3271 Encoder:    15593 errors:4/411  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 60 0c 00 00 00 00 00 00 00 00 00 00 6c
+[bus:0] Recieved :  3e a4 01 07 ea 21 a0 ff 56 fd fa 6d 7a
+Target:     3168 Encoder:    15465 errors:4/412  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef fb 0b 00 00 00 00 00 00 00 00 00 00 06
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 73 fd 1b 6d b5
+Target:     3067 Encoder:    15342 errors:4/413  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 97 0b 00 00 00 00 00 00 00 00 00 00 a2
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 7e fd 3f 6c e3
+Target:     2967 Encoder:    15222 errors:4/414  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 35 0b 00 00 00 00 00 00 00 00 00 00 40
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 5c fd 57 6b da
+Target:     2869 Encoder:    15094 errors:4/415  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef d4 0a 00 00 00 00 00 00 00 00 00 00 de
+[bus:0] Recieved :  3e a4 01 07 ea 21 a3 ff 32 fd 62 6a be
+Target:     2772 Encoder:    14960 errors:4/416  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 75 0a 00 00 00 00 00 00 00 00 00 00 7f
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff 45 fd 74 69 e1
+Target:     2677 Encoder:    14829 errors:4/417  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 17 0a 00 00 00 00 00 00 00 00 00 00 21
+[bus:0] Recieved :  3e a4 01 07 ea 21 9e ff 70 fd 95 68 28
+Target:     2583 Encoder:    14706 errors:4/418  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef bb 09 00 00 00 00 00 00 00 00 00 00 c4
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 81 fd bb 67 5d
+Target:     2491 Encoder:    14587 errors:4/419  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 60 09 00 00 00 00 00 00 00 00 00 00 69
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff 8d fd e5 66 91
+Target:     2400 Encoder:    14469 errors:4/420  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 07 09 00 00 00 00 00 00 00 00 00 00 10
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 8a fd 0e 66 b8
+Target:     2311 Encoder:    14351 errors:4/421  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef b0 08 00 00 00 00 00 00 00 00 00 00 b8
+[bus:0] Recieved :  3e a4 01 07 ea 21 9e ff 7a fd 32 65 cc
+Target:     2224 Encoder:    14230 errors:4/422  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 5a 08 00 00 00 00 00 00 00 00 00 00 62
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 83 fd 67 64 08
+Target:     2138 Encoder:    14119 errors:4/423  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 05 08 00 00 00 00 00 00 00 00 00 00 0d
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 8e fd 83 63 2e
+Target:     2053 Encoder:    13993 errors:4/424  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef b3 07 00 00 00 00 00 00 00 00 00 00 ba
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff a1 fd b4 62 6f
+Target:     1971 Encoder:    13880 errors:4/425  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 62 07 00 00 00 00 00 00 00 00 00 00 69
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff a0 fd f1 61 ab
+Target:     1890 Encoder:    13773 errors:4/426  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 12 07 00 00 00 00 00 00 00 00 00 00 19
+[bus:0] Recieved :  3e a4 01 07 ea 21 a1 ff 5a fd 08 61 81
+Target:     1810 Encoder:    13645 errors:4/427  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef c4 06 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 a9 ff 24 fd 0f 60 59
+Target:     1732 Encoder:    13508 errors:4/428  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 78 06 00 00 00 00 00 00 00 00 00 00 7e
+[bus:0] Recieved :  3e a4 01 07 ea 21 a8 ff 58 fd 27 5f a3
+Target:     1656 Encoder:    13380 errors:4/429  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 2d 06 00 00 00 00 00 00 00 00 00 00 33
+[bus:0] Recieved :  3e a4 01 07 ea 21 9e ff 95 fd 53 5e 01
+Target:     1581 Encoder:    13264 errors:4/430  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef e5 05 00 00 00 00 00 00 00 00 00 00 ea
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff a3 fd 84 5d 3d
+Target:     1509 Encoder:    13150 errors:4/431  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 9d 05 00 00 00 00 00 00 00 00 00 00 a2
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 80 fd a9 5c 41
+Target:     1437 Encoder:    13030 errors:4/432  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 58 05 00 00 00 00 00 00 00 00 00 00 5d
+[bus:0] Recieved :  3e a4 01 07 ea 21 a1 ff 74 fd ca 5b 57
+Target:     1368 Encoder:    12907 errors:4/433  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 14 05 00 00 00 00 00 00 00 00 00 00 19
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 88 fd f3 5a 91
+Target:     1300 Encoder:    12789 errors:4/434  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef d1 04 00 00 00 00 00 00 00 00 00 00 d5
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff a2 fd 24 5a da
+Target:     1233 Encoder:    12676 errors:4/435  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 91 04 00 00 00 00 00 00 00 00 00 00 95
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff c1 fd 60 59 32
+Target:     1169 Encoder:    12568 errors:4/436  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 52 04 00 00 00 00 00 00 00 00 00 00 56
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff c4 fd 9d 58 71
+Target:     1106 Encoder:    12461 errors:4/437  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 14 04 00 00 00 00 00 00 00 00 00 00 18
+[bus:0] Recieved :  3e a4 01 07 ea 21 9c ff b6 fd d3 57 99
+Target:     1044 Encoder:    12350 errors:4/438  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef d9 03 00 00 00 00 00 00 00 00 00 00 dc
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff 70 fd f2 56 77
+Target:      985 Encoder:    12226 errors:4/439  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 9f 03 00 00 00 00 00 00 00 00 00 00 a2
+[bus:0] Recieved :  3e a4 01 07 ea 21 ab ff 3c fd 00 56 5a
+Target:      927 Encoder:    12093 errors:4/440  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 67 03 00 00 00 00 00 00 00 00 00 00 6a
+[bus:0] Recieved :  3e a4 01 07 ea 21 b1 ff 50 fd 26 55 99
+Target:      871 Encoder:    11973 errors:4/441  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 30 03 00 00 00 00 00 00 00 00 00 00 33
+[bus:0] Recieved :  3e a4 01 07 ea 21 ac ff 94 fd 44 54 f5
+Target:      816 Encoder:    11849 errors:4/442  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef fb 02 00 00 00 00 00 00 00 00 00 00 fd
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff bd fd 7e 53 4d
+Target:      763 Encoder:    11741 errors:4/443  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef c8 02 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 a1 ff 8e fd b5 52 53
+Target:      712 Encoder:    11630 errors:4/444  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 97 02 00 00 00 00 00 00 00 00 00 00 99
+[bus:0] Recieved :  3e a4 01 07 ea 21 a5 ff 74 fd d6 51 5d
+Target:      663 Encoder:    11508 errors:4/445  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 68 02 00 00 00 00 00 00 00 00 00 00 6a
+[bus:0] Recieved :  3e a4 01 07 ea 21 a4 ff 95 fd 04 51 ab
+Target:      616 Encoder:    11392 errors:4/446  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 3a 02 00 00 00 00 00 00 00 00 00 00 3c
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff e8 fd 4e 50 3e
+Target:      570 Encoder:    11292 errors:4/447  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 0e 02 00 00 00 00 00 00 00 00 00 00 10
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff f1 fd 99 4f 91
+Target:      526 Encoder:    11193 errors:4/448  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef e3 01 00 00 00 00 00 00 00 00 00 00 e4
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff da fd dd 4e bf
+Target:      483 Encoder:    11090 errors:4/449  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef bb 01 00 00 00 00 00 00 00 00 00 00 bc
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff c5 fd 1a 4e e9
+Target:      443 Encoder:    10983 errors:4/450  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 94 01 00 00 00 00 00 00 00 00 00 00 95
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff a4 fd 4b 4d fb
+Target:      404 Encoder:    10869 errors:4/451  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 6f 01 00 00 00 00 00 00 00 00 00 00 70
+[bus:0] Recieved :  3e a4 01 07 ea 21 a9 ff 6e fd 6a 4c ea
+Target:      367 Encoder:    10745 errors:4/452  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 4c 01 00 00 00 00 00 00 00 00 00 00 4d
+[bus:0] Recieved :  3e a4 01 07 ea 21 b6 ff 4c fd 7e 4b e8
+Target:      332 Encoder:    10616 errors:4/453  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 2a 01 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 bf ff 6e fd 9e 4a 32
+Target:      298 Encoder:    10493 errors:4/454  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 0a 01 00 00 00 00 00 00 00 00 00 00 0b
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff c0 fd da 49 bc
+Target:      266 Encoder:    10385 errors:4/455  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef ec 00 00 00 00 00 00 00 00 00 00 00 ec
+[bus:0] Recieved :  3e a4 01 07 ea 21 b3 ff e6 fd 21 49 20
+Target:      236 Encoder:    10283 errors:4/456  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef d0 00 00 00 00 00 00 00 00 00 00 00 d0
+[bus:0] Recieved :  3e a4 01 07 ea 21 b2 ff be fd 5c 48 31
+Target:      208 Encoder:    10175 errors:4/457  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef b6 00 00 00 00 00 00 00 00 00 00 00 b6
+[bus:0] Recieved :  3e a4 01 07 ea 21 b2 ff c3 fd a6 47 7f
+Target:      182 Encoder:    10075 errors:4/458  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 9d 00 00 00 00 00 00 00 00 00 00 00 9d
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 28 fe 8b 46 b6
+Target:      157 Encoder:     9920 errors:4/459  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 86 00 00 00 00 00 00 00 00 00 00 00 86
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff 47 fe f3 45 35
+Target:      134 Encoder:     9836 errors:4/460  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 71 00 00 00 00 00 00 00 00 00 00 00 71
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 22 fe 4f 45 6f
+Target:      113 Encoder:     9746 errors:4/461  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 5e 00 00 00 00 00 00 00 00 00 00 00 5e
+[bus:0] Recieved :  3e a4 01 07 ea 21 9e ff 0a fe a3 44 ad
+Target:       94 Encoder:     9652 errors:4/462  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 4c 00 00 00 00 00 00 00 00 00 00 00 4c
+[bus:0] Recieved :  3e a4 01 07 ea 21 a1 ff e4 fd f5 43 da
+Target:       76 Encoder:     9556 errors:4/463  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 3d 00 00 00 00 00 00 00 00 00 00 00 3d
+[bus:0] Recieved :  3e a4 01 07 ea 21 a7 ff b5 fd 2c 43 e8
+Target:       61 Encoder:     9446 errors:4/464  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 2f 00 00 00 00 00 00 00 00 00 00 00 2f
+[bus:0] Recieved :  3e a4 01 07 ea 21 af ff ab fd 60 42 19
+Target:       47 Encoder:     9333 errors:4/465  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 23 00 00 00 00 00 00 00 00 00 00 00 23
+[bus:0] Recieved :  3e a4 01 07 ea 21 ba ff 9f fd 82 41 39
+Target:       35 Encoder:     9212 errors:4/466  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 18 00 00 00 00 00 00 00 00 00 00 00 18
+[bus:0] Recieved :  3e a4 01 07 ea 21 c5 ff 9a fd b0 40 6c
+Target:       24 Encoder:     9096 errors:4/467  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 10 00 00 00 00 00 00 00 00 00 00 00 10
+[bus:0] Recieved :  3e a4 01 07 ea 21 cd ff b7 fd f7 3f d7
+Target:       16 Encoder:     8995 errors:4/468  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 09 00 00 00 00 00 00 00 00 00 00 00 09
+[bus:0] Recieved :  3e a4 01 07 ea 21 cd ff ee fd 43 3f 5a
+Target:        9 Encoder:     8896 errors:4/469  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 04 00 00 00 00 00 00 00 00 00 00 00 04
+[bus:0] Recieved :  3e a4 01 07 ea 21 c9 ff 12 fe 9a 3e d1
+Target:        4 Encoder:     8803 errors:4/470  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 01 00 00 00 00 00 00 00 00 00 00 00 01
+[bus:0] Recieved :  3e a4 01 07 ea 21 c4 ff 20 fe f7 3d 36
+Target:        1 Encoder:     8713 errors:4/471  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 00 00 00 00 00 00 00 00 00 00 00 00 00
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff 3f fe 5e 3d b4
+Target:        0 Encoder:     8629 errors:4/472  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 00 00 00 00 00 00 00 00 00 00 00 00 00
+[bus:0] Recieved :  3e a4 01 07 ea 21 ac ff 77 fe d8 3c 55
+Target:        0 Encoder:     8556 errors:4/473  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 02 00 00 00 00 00 00 00 00 00 00 00 02
+[bus:0] Recieved :  3e a4 01 07 ea 21 98 ff 8c fe 59 3c d7
+Target:        2 Encoder:     8486 errors:4/474  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 06 00 00 00 00 00 00 00 00 00 00 00 06
+[bus:0] Recieved :  3e a4 01 07 ea 21 9b ff 71 fe d0 3b 35
+Target:        6 Encoder:     8411 errors:4/475  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 0c 00 00 00 00 00 00 00 00 00 00 00 0c
+[bus:0] Recieved :  3e a4 01 07 ea 21 9d ff 5d fe 41 3b 94
+Target:       12 Encoder:     8332 errors:4/476  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 14 00 00 00 00 00 00 00 00 00 00 00 14
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff 44 fe a9 3a e4
+Target:       20 Encoder:     8249 errors:4/477  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 1d 00 00 00 00 00 00 00 00 00 00 00 1d
+[bus:0] Recieved :  3e a4 01 07 ea 21 a4 ff 10 fe fe 39 09
+Target:       29 Encoder:     8155 errors:4/478  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 29 00 00 00 00 00 00 00 00 00 00 00 29
+[bus:0] Recieved :  3e a4 01 07 ea 21 af ff e1 fd 44 39 2a
+Target:       41 Encoder:     8052 errors:4/479  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 36 00 00 00 00 00 00 00 00 00 00 00 36
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff de fd 8a 38 79
+Target:       54 Encoder:     7950 errors:4/480  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 45 00 00 00 00 00 00 00 00 00 00 00 45
+[bus:0] Recieved :  3e a4 01 07 ea 21 c3 ff fe fd da 37 ef
+Target:       69 Encoder:     7854 errors:4/481  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 55 00 00 00 00 00 00 00 00 00 00 00 55
+[bus:0] Recieved :  3e a4 01 07 ea 21 ca ff 07 fe 2e 37 54
+Target:       85 Encoder:     7759 errors:4/482  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 68 00 00 00 00 00 00 00 00 00 00 00 68
+[bus:0] Recieved :  3e a4 01 07 ea 21 d2 ff 08 fe 8e 36 bc
+Target:      104 Encoder:     7671 errors:4/483  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 7c 00 00 00 00 00 00 00 00 00 00 00 7c
+[bus:0] Recieved :  3e a4 01 07 ea 21 d9 ff 12 fe e4 35 22
+Target:      124 Encoder:     7578 errors:4/484  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 92 00 00 00 00 00 00 00 00 00 00 00 92
+[bus:0] Recieved :  3e a4 01 07 ea 21 e2 ff 18 fe 3e 35 8b
+Target:      146 Encoder:     7487 errors:4/485  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef aa 00 00 00 00 00 00 00 00 00 00 00 aa
+[bus:0] Recieved :  3e a4 01 07 ea 21 e3 ff 49 fe aa 34 28
+Target:      170 Encoder:     7405 errors:4/486  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef c3 00 00 00 00 00 00 00 00 00 00 00 c3
+[bus:0] Recieved :  3e a4 01 07 ea 21 db ff 8e fe 2d 34 e8
+Target:      195 Encoder:     7337 errors:4/487  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef df 00 00 00 00 00 00 00 00 00 00 00 df
+[bus:0] Recieved :  3e a4 01 07 ea 21 cc ff c4 fe c1 33 a2
+Target:      223 Encoder:     7277 errors:4/488  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef fc 00 00 00 00 00 00 00 00 00 00 00 fc
+[bus:0] Recieved :  3e a4 01 07 ea 21 bd ff ca fe 56 33 2e
+Target:      252 Encoder:     7219 errors:4/489  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 1b 01 00 00 00 00 00 00 00 00 00 00 1c
+[bus:0] Recieved :  3e a4 01 07 ea 21 b0 ff be fe e1 32 9f
+Target:      283 Encoder:     7154 errors:4/490  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 3b 01 00 00 00 00 00 00 00 00 00 00 3c
+[bus:0] Recieved :  3e a4 01 07 ea 21 a5 ff bd fe 6b 32 1d
+Target:      315 Encoder:     7090 errors:4/491  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 5e 01 00 00 00 00 00 00 00 00 00 00 5f
+[bus:0] Recieved :  3e a4 01 07 ea 21 9f ff a8 fe fd 31 93
+Target:      350 Encoder:     7029 errors:4/492  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 82 01 00 00 00 00 00 00 00 00 00 00 83
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff 86 fe 63 31 da
+Target:      386 Encoder:     6945 errors:4/493  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef a8 01 00 00 00 00 00 00 00 00 00 00 a9
+[bus:0] Recieved :  3e a4 01 07 ea 21 a2 ff 82 fe c6 30 38
+Target:      424 Encoder:     6858 errors:4/494  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef d0 01 00 00 00 00 00 00 00 00 00 00 d1
+[bus:0] Recieved :  3e a4 01 07 ea 21 ab ff 53 fe 18 30 64
+Target:      464 Encoder:     6763 errors:4/495  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f9 01 00 00 00 00 00 00 00 00 00 00 fa
+[bus:0] Recieved :  3e a4 01 07 ea 21 bf ff 2d fe 4e 2f 87
+Target:      505 Encoder:     6652 errors:4/496  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 24 02 00 00 00 00 00 00 00 00 00 00 26
+[bus:0] Recieved :  3e a4 01 07 ea 21 cf ff 41 fe 8d 2e e9
+Target:      548 Encoder:     6546 errors:4/497  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 51 02 00 00 00 00 00 00 00 00 00 00 53
+[bus:0] Recieved :  3e a4 01 07 ea 21 d7 ff 81 fe e4 2d 87
+Target:      593 Encoder:     6453 errors:4/498  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 80 02 00 00 00 00 00 00 00 00 00 00 82
+[bus:0] Recieved :  3e a4 01 07 ea 21 d6 ff aa fe 77 2d 42
+Target:      640 Encoder:     6393 errors:4/499  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef b1 02 00 00 00 00 00 00 00 00 00 00 b3
+[bus:0] Recieved :  3e a4 01 07 ea 21 d6 ff af fe 04 2d d4
+Target:      689 Encoder:     6330 errors:4/500  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef e3 02 00 00 00 00 00 00 00 00 00 00 e5
+[bus:0] Recieved :  3e a4 01 07 ea 21 d9 ff a3 fe 8c 2c 52
+Target:      739 Encoder:     6264 errors:4/501  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 17 03 00 00 00 00 00 00 00 00 00 00 1a
+[bus:0] Recieved :  3e a4 01 07 ea 21 e2 ff 84 fe 0a 2c ba
+Target:      791 Encoder:     6192 errors:4/502  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 4c 03 00 00 00 00 00 00 00 00 00 00 4f
+[bus:0] Recieved :  3e a4 01 07 ea 21 ef ff 71 fe 82 2b 2b
+Target:      844 Encoder:     6118 errors:4/503  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 84 03 00 00 00 00 00 00 00 00 00 00 87
+[bus:0] Recieved :  3e a4 01 07 ea 21 fb ff 7d fe ff 2a bf
+Target:      900 Encoder:     6046 errors:4/504  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef bd 03 00 00 00 00 00 00 00 00 00 00 c0
+[bus:0] Recieved :  3e a4 01 07 ea 21 ff ff bb fe 92 2a 94
+Target:      957 Encoder:     5986 errors:4/505  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f8 03 00 00 00 00 00 00 00 00 00 00 fb
+[bus:0] Recieved :  3e a4 01 07 ea 21 f3 ff 23 ff 47 2a a6
+Target:     1016 Encoder:     5945 errors:4/506  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 34 04 00 00 00 00 00 00 00 00 00 00 38
+[bus:0] Recieved :  3e a4 01 07 ea 21 e2 ff 52 ff 0b 2a 88
+Target:     1076 Encoder:     5912 errors:4/507  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 72 04 00 00 00 00 00 00 00 00 00 00 76
+[bus:0] Recieved :  3e a4 01 07 ea 21 d5 ff 3f ff c9 29 25
+Target:     1138 Encoder:     5876 errors:4/508  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef b2 04 00 00 00 00 00 00 00 00 00 00 b6
+[bus:0] Recieved :  3e a4 01 07 ea 21 cc ff 36 ff 84 29 ce
+Target:     1202 Encoder:     5838 errors:4/509  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef f4 04 00 00 00 00 00 00 00 00 00 00 f8
+[bus:0] Recieved :  3e a4 01 07 ea 21 c2 ff 35 ff 3e 29 7d
+Target:     1268 Encoder:     5799 errors:4/510  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 37 05 00 00 00 00 00 00 00 00 00 00 3c
+[bus:0] Recieved :  3e a4 01 07 ea 21 bd ff 1c ff f0 28 10
+Target:     1335 Encoder:     5756 errors:4/511  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 7c 05 00 00 00 00 00 00 00 00 00 00 81
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff 0e ff 98 28 a9
+Target:     1404 Encoder:     5708 errors:4/512  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef c2 05 00 00 00 00 00 00 00 00 00 00 c7
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff 09 ff 43 28 4f
+Target:     1474 Encoder:     5661 errors:4/513  (errors in checksum of second part of response: 4)
+[bus:0] Sending :  3e a4 01 0c ef 0a 06 00 00 00 00 00 00 00 00 00 00 10
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff 0a ff f0 27 ff
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 46 27 22 2c dc 04 9b
+Encoder:10054 Raw:11298 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef 54 06 00 00 00 00 00 00 00 00 00 00 5a
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 98 00 a7 27 87
+Target:     1620 Encoder:     5576 errors:5/515  (errors in checksum of second part of response: 5)
+[bus:0] Sending :  3e a4 01 0c ef a0 06 00 00 00 00 00 00 00 00 00 00 a6
+[bus:0] Recieved :  3e a4 01 07 ea 21 b1 ff 68 00 c6 27 26
+Target:     1696 Encoder:     5593 errors:5/516  (errors in checksum of second part of response: 5)
+[bus:0] Sending :  3e a4 01 0c ef ed 06 00 00 00 00 00 00 00 00 00 00 f3
+[bus:0] Recieved :  3e a4 01 07 ea 21 a7 ff 6f ff 92 27 ee
+Target:     1773 Encoder:     5564 errors:5/517  (errors in checksum of second part of response: 5)
+[bus:0] Sending :  3e a4 01 0c ef 3c 07 00 00 00 00 00 00 00 00 00 00 43
+[bus:0] Recieved :  3e a4 01 07 ea 21 bc ff bd fe 25 27 e3
+Target:     1852 Encoder:     5504 errors:5/518  (errors in checksum of second part of response: 5)
+[bus:0] Sending :  3e a4 01 0c ef 8c 07 00 00 00 00 00 00 00 00 00 00 93
+[bus:0] Recieved :  3e a4 01 07 ea 21 c5 ff f3 fe cb 26 c7
+Target:     1932 Encoder:     5455 errors:5/519  (errors in checksum of second part of response: 5)
+[bus:0] Sending :  3e a4 01 0c ef de 07 00 00 00 00 00 00 00 00 00 00 e5
+[bus:0] Recieved :  3e a4 01 07 ea 21 c0 ff 48 ff 8c 26 d9
+Target:     2014 Encoder:     5420 errors:5/520  (errors in checksum of second part of response: 5)
+[bus:0] Sending :  3e a4 01 0c ef 31 08 00 00 00 00 00 00 00 00 00 00 39
+[bus:0] Recieved :  3e a4 01 07 ea 21 be ff 4b ff 52 26 a0
+Target:     2097 Encoder:     5388 errors:5/521  (errors in checksum of second part of response: 5)
+[bus:0] Sending :  3e a4 01 0c ef 86 08 00 00 00 00 00 00 00 00 00 00 8e
+[bus:0] Recieved :  3e a4 01 07 ea 21 c1 ff 2a ff 0a 26 3d
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 67 25 43 2a dc 04 d9
+Encoder:9575 Raw:10819 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef dd 08 00 00 00 00 00 00 00 00 00 00 e5
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 29 00 69 25 d8
+Target:     2269 Encoder:     5260 errors:6/523  (errors in checksum of second part of response: 6)
+[bus:0] Sending :  3e a4 01 0c ef 35 09 00 00 00 00 00 00 00 00 00 00 3e
+[bus:0] Recieved :  3e a4 01 07 ea 21 d3 ff 15 00 6f 25 9c
+Target:     2357 Encoder:     5264 errors:6/524  (errors in checksum of second part of response: 6)
+[bus:0] Sending :  3e a4 01 0c ef 8f 09 00 00 00 00 00 00 00 00 00 00 98
+[bus:0] Recieved :  3e a4 01 07 ea 21 c8 ff a4 ff 4f 25 ff
+Target:     2447 Encoder:     5246 errors:6/525  (errors in checksum of second part of response: 6)
+[bus:0] Sending :  3e a4 01 0c ef eb 09 00 00 00 00 00 00 00 00 00 00 f4
+[bus:0] Recieved :  3e a4 01 07 ea 21 cf ff 40 ff 0a 25 60
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 80 24 5c 29 dc 04 09
+Encoder:9344 Raw:10588 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef 48 0a 00 00 00 00 00 00 00 00 00 00 52
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 05 00 74 24 be
+Target:     2632 Encoder:     5126 errors:7/527  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef a6 0a 00 00 00 00 00 00 00 00 00 00 b0
+[bus:0] Recieved :  3e a4 01 07 ea 21 dd ff 0c 00 78 24 a5
+Target:     2726 Encoder:     5128 errors:7/528  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef 06 0b 00 00 00 00 00 00 00 00 00 00 11
+[bus:0] Recieved :  3e a4 01 07 ea 21 d0 ff ce ff 65 24 46
+Target:     2822 Encoder:     5117 errors:7/529  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef 68 0b 00 00 00 00 00 00 00 00 00 00 73
+[bus:0] Recieved :  3e a4 01 07 ea 21 d3 ff 71 ff 34 24 bb
+Target:     2920 Encoder:     5091 errors:7/530  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef cb 0b 00 00 00 00 00 00 00 00 00 00 d6
+[bus:0] Recieved :  3e a4 01 07 ea 21 dd ff 4d ff f7 23 63
+Target:     3019 Encoder:     5057 errors:7/531  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef 2f 0c 00 00 00 00 00 00 00 00 00 00 3b
+[bus:0] Recieved :  3e a4 01 07 ea 21 e2 ff 76 ff b2 23 4c
+Target:     3119 Encoder:     5019 errors:7/532  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef 95 0c 00 00 00 00 00 00 00 00 00 00 a1
+[bus:0] Recieved :  3e a4 01 07 ea 21 e5 ff 7d ff 7d 23 21
+Target:     3221 Encoder:     4990 errors:7/533  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef fd 0c 00 00 00 00 00 00 00 00 00 00 09
+[bus:0] Recieved :  3e a4 01 07 ea 21 ea ff 80 ff 48 23 f4
+Target:     3325 Encoder:     4961 errors:7/534  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef 66 0d 00 00 00 00 00 00 00 00 00 00 73
+[bus:0] Recieved :  3e a4 01 07 ea 21 f0 ff 83 ff 15 23 ca
+Target:     3430 Encoder:     4933 errors:7/535  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef d0 0d 00 00 00 00 00 00 00 00 00 00 dd
+[bus:0] Recieved :  3e a4 01 07 ea 21 f5 ff 8d ff e5 22 a8
+Target:     3536 Encoder:     4907 errors:7/536  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef 3c 0e 00 00 00 00 00 00 00 00 00 00 4a
+[bus:0] Recieved :  3e a4 01 07 ea 21 fa ff 96 ff ba 22 8b
+Target:     3644 Encoder:     4883 errors:7/537  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef a9 0e 00 00 00 00 00 00 00 00 00 00 b7
+[bus:0] Recieved :  3e a4 01 07 ea 21 fe ff 9b ff 98 22 72
+Target:     3753 Encoder:     4864 errors:7/538  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef 18 0f 00 00 00 00 00 00 00 00 00 00 27
+[bus:0] Recieved :  3e a4 01 07 ea 21 02 00 a0 ff 77 22 5b
+Target:     3864 Encoder:     4846 errors:7/539  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef 88 0f 00 00 00 00 00 00 00 00 00 00 97
+[bus:0] Recieved :  3e a4 01 07 ea 21 08 00 a4 ff 57 22 45
+Target:     3976 Encoder:     4829 errors:7/540  (errors in checksum of second part of response: 7)
+[bus:0] Sending :  3e a4 01 0c ef fa 0f 00 00 00 00 00 00 00 00 00 00 09
+[bus:0] Recieved :  3e a4 01 07 ea 21 0a 00 a9 ff 3a 22 32
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 05 22 e1 26 dc 04 0e
+Encoder:8709 Raw:9953 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef 6d 10 00 00 00 00 00 00 00 00 00 00 7d
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 59 ff 89 21 23
+Target:     4205 Encoder:     4715 errors:8/542  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e1 10 00 00 00 00 00 00 00 00 00 00 f1
+[bus:0] Recieved :  3e a4 01 07 ea 21 1d 00 55 ff 53 21 06
+Target:     4321 Encoder:     4686 errors:8/543  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 57 11 00 00 00 00 00 00 00 00 00 00 68
+[bus:0] Recieved :  3e a4 01 07 ea 21 2c 00 8c ff 2d 21 26
+Target:     4439 Encoder:     4665 errors:8/544  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ce 11 00 00 00 00 00 00 00 00 00 00 df
+[bus:0] Recieved :  3e a4 01 07 ea 21 2b 00 ef ff 27 21 82
+Target:     4558 Encoder:     4662 errors:8/545  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 46 12 00 00 00 00 00 00 00 00 00 00 58
+[bus:0] Recieved :  3e a4 01 07 ea 21 25 00 23 00 32 21 bc
+Target:     4678 Encoder:     4668 errors:8/546  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef c0 12 00 00 00 00 00 00 00 00 00 00 d2
+[bus:0] Recieved :  3e a4 01 07 ea 21 23 00 0c 00 36 21 a7
+Target:     4800 Encoder:     4670 errors:8/547  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 3b 13 00 00 00 00 00 00 00 00 00 00 4e
+[bus:0] Recieved :  3e a4 01 07 ea 21 26 00 00 00 36 21 9e
+Target:     4923 Encoder:     4670 errors:8/548  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef b7 13 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 29 00 00 00 37 21 a2
+Target:     5047 Encoder:     4670 errors:8/549  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 35 14 00 00 00 00 00 00 00 00 00 00 49
+[bus:0] Recieved :  3e a4 01 07 ea 21 29 00 16 00 3f 21 c0
+Target:     5173 Encoder:     4675 errors:8/550  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef b4 14 00 00 00 00 00 00 00 00 00 00 c8
+[bus:0] Recieved :  3e a4 01 07 ea 21 29 00 1d 00 49 21 d1
+Target:     5300 Encoder:     4680 errors:8/551  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 34 15 00 00 00 00 00 00 00 00 00 00 49
+[bus:0] Recieved :  3e a4 01 07 ea 21 2b 00 1c 00 52 21 db
+Target:     5428 Encoder:     4685 errors:8/552  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef b5 15 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 2d 00 1e 00 5d 21 ea
+Target:     5557 Encoder:     4691 errors:8/553  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 38 16 00 00 00 00 00 00 00 00 00 00 4e
+[bus:0] Recieved :  3e a4 01 07 ea 21 31 00 22 00 6b 21 00
+Target:     5688 Encoder:     4699 errors:8/554  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef bc 16 00 00 00 00 00 00 00 00 00 00 d2
+[bus:0] Recieved :  3e a4 01 07 ea 21 33 00 2f 00 7c 21 20
+Target:     5820 Encoder:     4708 errors:8/555  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 41 17 00 00 00 00 00 00 00 00 00 00 58
+[bus:0] Recieved :  3e a4 01 07 ea 21 35 00 3c 00 95 21 48
+Target:     5953 Encoder:     4722 errors:8/556  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef c8 17 00 00 00 00 00 00 00 00 00 00 df
+[bus:0] Recieved :  3e a4 01 07 ea 21 35 00 4b 00 b2 21 74
+Target:     6088 Encoder:     4738 errors:8/557  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 4f 18 00 00 00 00 00 00 00 00 00 00 67
+[bus:0] Recieved :  3e a4 01 07 ea 21 34 00 57 00 d5 21 a2
+Target:     6223 Encoder:     4757 errors:8/558  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef d8 18 00 00 00 00 00 00 00 00 00 00 f0
+[bus:0] Recieved :  3e a4 01 07 ea 21 35 00 53 00 f2 21 bc
+Target:     6360 Encoder:     4773 errors:8/559  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 62 19 00 00 00 00 00 00 00 00 00 00 7b
+[bus:0] Recieved :  3e a4 01 07 ea 21 35 00 5f 00 13 22 ea
+Target:     6498 Encoder:     4791 errors:8/560  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ed 19 00 00 00 00 00 00 00 00 00 00 06
+[bus:0] Recieved :  3e a4 01 07 ea 21 35 00 6c 00 3f 22 23
+Target:     6637 Encoder:     4815 errors:8/561  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 79 1a 00 00 00 00 00 00 00 00 00 00 93
+[bus:0] Recieved :  3e a4 01 07 ea 21 32 00 7a 00 6f 22 5e
+Target:     6777 Encoder:     4842 errors:8/562  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 06 1b 00 00 00 00 00 00 00 00 00 00 21
+[bus:0] Recieved :  3e a4 01 07 ea 21 2f 00 8b 00 9e 22 9b
+Target:     6918 Encoder:     4868 errors:8/563  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 95 1b 00 00 00 00 00 00 00 00 00 00 b0
+[bus:0] Recieved :  3e a4 01 07 ea 21 2d 00 8e 00 cf 22 cd
+Target:     7061 Encoder:     4894 errors:8/564  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 24 1c 00 00 00 00 00 00 00 00 00 00 40
+[bus:0] Recieved :  3e a4 01 07 ea 21 2a 00 96 00 02 23 06
+Target:     7204 Encoder:     4922 errors:8/565  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef b5 1c 00 00 00 00 00 00 00 00 00 00 d1
+[bus:0] Recieved :  3e a4 01 07 ea 21 27 00 9d 00 38 23 40
+Target:     7349 Encoder:     4952 errors:8/566  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 46 1d 00 00 00 00 00 00 00 00 00 00 63
+[bus:0] Recieved :  3e a4 01 07 ea 21 24 00 a1 00 70 23 79
+Target:     7494 Encoder:     4983 errors:8/567  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef d9 1d 00 00 00 00 00 00 00 00 00 00 f6
+[bus:0] Recieved :  3e a4 01 07 ea 21 22 00 a8 00 ad 23 bb
+Target:     7641 Encoder:     5016 errors:8/568  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 6d 1e 00 00 00 00 00 00 00 00 00 00 8b
+[bus:0] Recieved :  3e a4 01 07 ea 21 20 00 aa 00 e8 23 f6
+Target:     7789 Encoder:     5049 errors:8/569  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 01 1f 00 00 00 00 00 00 00 00 00 00 20
+[bus:0] Recieved :  3e a4 01 07 ea 21 1f 00 a7 00 24 24 2f
+Target:     7937 Encoder:     5082 errors:8/570  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 97 1f 00 00 00 00 00 00 00 00 00 00 b6
+[bus:0] Recieved :  3e a4 01 07 ea 21 20 00 a7 00 61 24 6d
+Target:     8087 Encoder:     5115 errors:8/571  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 2e 20 00 00 00 00 00 00 00 00 00 00 4e
+[bus:0] Recieved :  3e a4 01 07 ea 21 21 00 ae 00 a0 24 b4
+Target:     8238 Encoder:     5150 errors:8/572  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef c6 20 00 00 00 00 00 00 00 00 00 00 e6
+[bus:0] Recieved :  3e a4 01 07 ea 21 23 00 a9 00 da 24 eb
+Target:     8390 Encoder:     5182 errors:8/573  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 5e 21 00 00 00 00 00 00 00 00 00 00 7f
+[bus:0] Recieved :  3e a4 01 07 ea 21 25 00 b1 00 13 25 2f
+Target:     8542 Encoder:     5213 errors:8/574  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef f8 21 00 00 00 00 00 00 00 00 00 00 19
+[bus:0] Recieved :  3e a4 01 07 ea 21 26 00 be 00 54 25 7e
+Target:     8696 Encoder:     5249 errors:8/575  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 92 22 00 00 00 00 00 00 00 00 00 00 b4
+[bus:0] Recieved :  3e a4 01 07 ea 21 25 00 d0 00 9c 25 d7
+Target:     8850 Encoder:     5288 errors:8/576  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 2e 23 00 00 00 00 00 00 00 00 00 00 51
+[bus:0] Recieved :  3e a4 01 07 ea 21 22 00 e6 00 eb 25 39
+Target:     9006 Encoder:     5332 errors:8/577  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ca 23 00 00 00 00 00 00 00 00 00 00 ed
+[bus:0] Recieved :  3e a4 01 07 ea 21 1e 00 f7 00 40 26 9c
+Target:     9162 Encoder:     5378 errors:8/578  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 68 24 00 00 00 00 00 00 00 00 00 00 8c
+[bus:0] Recieved :  3e a4 01 07 ea 21 18 00 09 01 9c 26 05
+Target:     9320 Encoder:     5429 errors:8/579  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 06 25 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 11 00 15 01 fa 26 68
+Target:     9478 Encoder:     5481 errors:8/580  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef a5 25 00 00 00 00 00 00 00 00 00 00 ca
+[bus:0] Recieved :  3e a4 01 07 ea 21 0c 00 14 01 58 27 c1
+Target:     9637 Encoder:     5532 errors:8/581  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 44 26 00 00 00 00 00 00 00 00 00 00 6a
+[bus:0] Recieved :  3e a4 01 07 ea 21 07 00 13 01 b6 27 19
+Target:     9796 Encoder:     5584 errors:8/582  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e5 26 00 00 00 00 00 00 00 00 00 00 0b
+[bus:0] Recieved :  3e a4 01 07 ea 21 07 00 fc 00 0c 28 58
+Target:     9957 Encoder:     5631 errors:8/583  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 87 27 00 00 00 00 00 00 00 00 00 00 ae
+[bus:0] Recieved :  3e a4 01 07 ea 21 0a 00 f0 00 5e 28 a1
+Target:    10119 Encoder:     5676 errors:8/584  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 29 28 00 00 00 00 00 00 00 00 00 00 51
+[bus:0] Recieved :  3e a4 01 07 ea 21 0f 00 e8 00 ad 28 ed
+Target:    10281 Encoder:     5720 errors:8/585  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef cc 28 00 00 00 00 00 00 00 00 00 00 f4
+[bus:0] Recieved :  3e a4 01 07 ea 21 15 00 e3 00 fb 28 3c
+Target:    10444 Encoder:     5762 errors:8/586  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 6f 29 00 00 00 00 00 00 00 00 00 00 98
+[bus:0] Recieved :  3e a4 01 07 ea 21 1c 00 e4 00 49 29 93
+Target:    10607 Encoder:     5805 errors:8/587  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 14 2a 00 00 00 00 00 00 00 00 00 00 3e
+[bus:0] Recieved :  3e a4 01 07 ea 21 23 00 e7 00 93 29 e7
+Target:    10772 Encoder:     5846 errors:8/588  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef b9 2a 00 00 00 00 00 00 00 00 00 00 e3
+[bus:0] Recieved :  3e a4 01 07 ea 21 2b 00 ea 00 e3 29 42
+Target:    10937 Encoder:     5890 errors:8/589  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 5f 2b 00 00 00 00 00 00 00 00 00 00 8a
+[bus:0] Recieved :  3e a4 01 07 ea 21 34 00 ee 00 35 2a a2
+Target:    11103 Encoder:     5935 errors:8/590  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 06 2c 00 00 00 00 00 00 00 00 00 00 32
+[bus:0] Recieved :  3e a4 01 07 ea 21 3d 00 ee 00 86 2a fc
+Target:    11270 Encoder:     5979 errors:8/591  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ad 2c 00 00 00 00 00 00 00 00 00 00 d9
+[bus:0] Recieved :  3e a4 01 07 ea 21 48 00 f0 00 d9 2a 5c
+Target:    11437 Encoder:     6025 errors:8/592  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 55 2d 00 00 00 00 00 00 00 00 00 00 82
+[bus:0] Recieved :  3e a4 01 07 ea 21 51 00 fe 00 30 2b cb
+Target:    11605 Encoder:     6073 errors:8/593  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef fe 2d 00 00 00 00 00 00 00 00 00 00 2b
+[bus:0] Recieved :  3e a4 01 07 ea 21 5b 00 07 01 8a 2b 39
+Target:    11774 Encoder:     6122 errors:8/594  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef a7 2e 00 00 00 00 00 00 00 00 00 00 d5
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 24 01 ee 2b bf
+Target:    11943 Encoder:     6177 errors:8/595  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 51 2f 00 00 00 00 00 00 00 00 00 00 80
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 48 01 5f 2c 53
+Target:    12113 Encoder:     6239 errors:8/596  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef fb 2f 00 00 00 00 00 00 00 00 00 00 2a
+[bus:0] Recieved :  3e a4 01 07 ea 21 5a 00 75 01 df 2c fc
+Target:    12283 Encoder:     6309 errors:8/597  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef a6 30 00 00 00 00 00 00 00 00 00 00 d6
+[bus:0] Recieved :  3e a4 01 07 ea 21 52 00 95 01 6a 2d a0
+Target:    12454 Encoder:     6386 errors:8/598  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 51 31 00 00 00 00 00 00 00 00 00 00 82
+[bus:0] Recieved :  3e a4 01 07 ea 21 47 00 af 01 fd 2d 42
+Target:    12625 Encoder:     6467 errors:8/599  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef fd 31 00 00 00 00 00 00 00 00 00 00 2e
+[bus:0] Recieved :  3e a4 01 07 ea 21 3d 00 b0 01 91 2e ce
+Target:    12797 Encoder:     6548 errors:8/600  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef aa 32 00 00 00 00 00 00 00 00 00 00 dc
+[bus:0] Recieved :  3e a4 01 07 ea 21 36 00 a1 01 1f 2f 47
+Target:    12970 Encoder:     6626 errors:8/601  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 57 33 00 00 00 00 00 00 00 00 00 00 8a
+[bus:0] Recieved :  3e a4 01 07 ea 21 35 00 80 01 a2 2f a8
+Target:    13143 Encoder:     6698 errors:8/602  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 05 34 00 00 00 00 00 00 00 00 00 00 39
+[bus:0] Recieved :  3e a4 01 07 ea 21 38 00 6a 01 1e 30 12
+Target:    13317 Encoder:     6766 errors:8/603  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef b3 34 00 00 00 00 00 00 00 00 00 00 e7
+[bus:0] Recieved :  3e a4 01 07 ea 21 3a 00 73 01 95 30 94
+Target:    13491 Encoder:     6831 errors:8/604  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 61 35 00 00 00 00 00 00 00 00 00 00 96
+[bus:0] Recieved :  3e a4 01 07 ea 21 38 00 97 01 21 31 43
+Target:    13665 Encoder:     6908 errors:8/605  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 10 36 00 00 00 00 00 00 00 00 00 00 46
+[bus:0] Recieved :  3e a4 01 07 ea 21 2e 00 d3 01 c1 31 15
+Target:    13840 Encoder:     6996 errors:8/606  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef bf 36 00 00 00 00 00 00 00 00 00 00 f5
+[bus:0] Recieved :  3e a4 01 07 ea 21 1e 00 f5 01 6c 32 d3
+Target:    14015 Encoder:     7090 errors:8/607  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 6f 37 00 00 00 00 00 00 00 00 00 00 a6
+[bus:0] Recieved :  3e a4 01 07 ea 21 16 00 d3 01 0a 33 48
+Target:    14191 Encoder:     7177 errors:8/608  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 1f 38 00 00 00 00 00 00 00 00 00 00 57
+[bus:0] Recieved :  3e a4 01 07 ea 21 1b 00 7c 01 8b 33 77
+Target:    14367 Encoder:     7248 errors:8/609  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef d0 38 00 00 00 00 00 00 00 00 00 00 08
+[bus:0] Recieved :  3e a4 01 07 ea 21 2d 00 32 01 f4 33 a8
+Target:    14544 Encoder:     7305 errors:8/610  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 81 39 00 00 00 00 00 00 00 00 00 00 ba
+[bus:0] Recieved :  3e a4 01 07 ea 21 42 00 2a 01 61 34 23
+Target:    14721 Encoder:     7365 errors:8/611  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 32 3a 00 00 00 00 00 00 00 00 00 00 6c
+[bus:0] Recieved :  3e a4 01 07 ea 21 4f 00 58 01 de 34 db
+Target:    14898 Encoder:     7434 errors:8/612  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e3 3a 00 00 00 00 00 00 00 00 00 00 1d
+[bus:0] Recieved :  3e a4 01 07 ea 21 5b 00 72 01 7e 35 a2
+Target:    15075 Encoder:     7522 errors:8/613  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 95 3b 00 00 00 00 00 00 00 00 00 00 d0
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 87 01 15 36 55
+Target:    15253 Encoder:     7605 errors:8/614  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 47 3c 00 00 00 00 00 00 00 00 00 00 83
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 a0 01 bf 36 17
+Target:    15431 Encoder:     7698 errors:8/615  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef f9 3c 00 00 00 00 00 00 00 00 00 00 35
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 be 01 75 37 ea
+Target:    15609 Encoder:     7798 errors:8/616  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ac 3d 00 00 00 00 00 00 00 00 00 00 e9
+[bus:0] Recieved :  3e a4 01 07 ea 21 5a 00 de 01 43 38 d5
+Target:    15788 Encoder:     7911 errors:8/617  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 5f 3e 00 00 00 00 00 00 00 00 00 00 9d
+[bus:0] Recieved :  3e a4 01 07 ea 21 54 00 fb 01 f0 38 99
+Target:    15967 Encoder:     8006 errors:8/618  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 11 3f 00 00 00 00 00 00 00 00 00 00 50
+[bus:0] Recieved :  3e a4 01 07 ea 21 4c 00 01 02 c2 39 6b
+Target:    16145 Encoder:     8122 errors:8/619  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef c5 3f 00 00 00 00 00 00 00 00 00 00 04
+[bus:0] Recieved :  3e a4 01 07 ea 21 47 00 f0 01 8e 3a 21
+Target:    16325 Encoder:     8234 errors:8/620  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 78 40 00 00 00 00 00 00 00 00 00 00 b8
+[bus:0] Recieved :  3e a4 01 07 ea 21 42 00 00 02 5f 3b ff
+Target:    16504 Encoder:     8349 errors:8/621  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 2b 41 00 00 00 00 00 00 00 00 00 00 6c
+[bus:0] Recieved :  3e a4 01 07 ea 21 33 00 3c 02 47 3c 15
+Target:    16683 Encoder:     8476 errors:8/622  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef df 41 00 00 00 00 00 00 00 00 00 00 20
+[bus:0] Recieved :  3e a4 01 07 ea 21 21 00 41 02 33 3d f5
+Target:    16863 Encoder:     8606 errors:8/623  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 93 42 00 00 00 00 00 00 00 00 00 00 d5
+[bus:0] Recieved :  3e a4 01 07 ea 21 24 00 c8 01 f1 3d 3c
+Target:    17043 Encoder:     8710 errors:8/624  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 46 43 00 00 00 00 00 00 00 00 00 00 89
+[bus:0] Recieved :  3e a4 01 07 ea 21 40 00 50 01 7d 3e 6d
+Target:    17222 Encoder:     8787 errors:8/625  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef fa 43 00 00 00 00 00 00 00 00 00 00 3d
+[bus:0] Recieved :  3e a4 01 07 ea 21 59 00 66 01 0f 3f 2f
+Target:    17402 Encoder:     8867 errors:8/626  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ae 44 00 00 00 00 00 00 00 00 00 00 f2
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 bb 01 a7 3f 24
+Target:    17582 Encoder:     8951 errors:8/627  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 62 45 00 00 00 00 00 00 00 00 00 00 a7
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 eb 01 59 40 05
+Target:    17762 Encoder:     9048 errors:8/628  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 16 46 00 00 00 00 00 00 00 00 00 00 5c
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 ef 01 02 41 b3
+Target:    17942 Encoder:     9141 errors:8/629  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ca 46 00 00 00 00 00 00 00 00 00 00 10
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 e3 01 9b 41 41
+Target:    18122 Encoder:     9225 errors:8/630  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 7e 47 00 00 00 00 00 00 00 00 00 00 c5
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 eb 01 43 42 f2
+Target:    18302 Encoder:     9318 errors:8/631  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 32 48 00 00 00 00 00 00 00 00 00 00 7a
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 f6 01 ef 42 a8
+Target:    18482 Encoder:     9412 errors:8/632  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e6 48 00 00 00 00 00 00 00 00 00 00 2e
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 09 02 a1 43 6e
+Target:    18662 Encoder:     9510 errors:8/633  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 9a 49 00 00 00 00 00 00 00 00 00 00 e3
+[bus:0] Recieved :  3e a4 01 07 ea 21 5c 00 22 02 5d 44 42
+Target:    18842 Encoder:     9613 errors:8/634  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 4e 4a 00 00 00 00 00 00 00 00 00 00 98
+[bus:0] Recieved :  3e a4 01 07 ea 21 58 00 3a 02 20 45 1a
+Target:    19022 Encoder:     9720 errors:8/635  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 01 4b 00 00 00 00 00 00 00 00 00 00 4c
+[bus:0] Recieved :  3e a4 01 07 ea 21 4d 00 70 02 f5 45 1a
+Target:    19201 Encoder:     9837 errors:8/636  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef b5 4b 00 00 00 00 00 00 00 00 00 00 00
+[bus:0] Recieved :  3e a4 01 07 ea 21 3b 00 9f 02 da 46 1d
+Target:    19381 Encoder:     9963 errors:8/637  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 68 4c 00 00 00 00 00 00 00 00 00 00 b4
+[bus:0] Recieved :  3e a4 01 07 ea 21 2d 00 80 02 b3 47 ca
+Target:    19560 Encoder:    10082 errors:8/638  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 1b 4d 00 00 00 00 00 00 00 00 00 00 68
+[bus:0] Recieved :  3e a4 01 07 ea 21 34 00 05 02 62 48 06
+Target:    19739 Encoder:    10178 errors:8/639  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef cf 4d 00 00 00 00 00 00 00 00 00 00 1c
+[bus:0] Recieved :  3e a4 01 07 ea 21 4c 00 9a 01 ee 48 3e
+Target:    19919 Encoder:    10255 errors:8/640  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 81 4e 00 00 00 00 00 00 00 00 00 00 cf
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 97 01 72 49 d7
+Target:    20097 Encoder:    10328 errors:8/641  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 34 4f 00 00 00 00 00 00 00 00 00 00 83
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 ff 01 2d 4a fa
+Target:    20276 Encoder:    10430 errors:8/642  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e6 4f 00 00 00 00 00 00 00 00 00 00 35
+[bus:0] Recieved :  3e a4 01 07 ea 21 5d 00 47 02 e7 4a f8
+Target:    20454 Encoder:    10533 errors:8/643  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 99 50 00 00 00 00 00 00 00 00 00 00 e9
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 39 02 b6 4b bb
+Target:    20633 Encoder:    10646 errors:8/644  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 4b 51 00 00 00 00 00 00 00 00 00 00 9c
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 19 02 61 4c 4a
+Target:    20811 Encoder:    10740 errors:8/645  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef fc 51 00 00 00 00 00 00 00 00 00 00 4d
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 07 02 13 4d ed
+Target:    20988 Encoder:    10838 errors:8/646  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ae 52 00 00 00 00 00 00 00 00 00 00 00
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 13 02 c9 4d ae
+Target:    21166 Encoder:    10938 errors:8/647  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 5f 53 00 00 00 00 00 00 00 00 00 00 b2
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 2a 02 87 4e 83
+Target:    21343 Encoder:    11042 errors:8/648  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 0f 54 00 00 00 00 00 00 00 00 00 00 63
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 59 02 54 4f 7d
+Target:    21519 Encoder:    11155 errors:8/649  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef c0 54 00 00 00 00 00 00 00 00 00 00 14
+[bus:0] Recieved :  3e a4 01 07 ea 21 58 00 84 02 31 50 80
+Target:    21696 Encoder:    11276 errors:8/650  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 70 55 00 00 00 00 00 00 00 00 00 00 c5
+[bus:0] Recieved :  3e a4 01 07 ea 21 4c 00 b1 02 1c 51 8d
+Target:    21872 Encoder:    11406 errors:8/651  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 1f 56 00 00 00 00 00 00 00 00 00 00 75
+[bus:0] Recieved :  3e a4 01 07 ea 21 45 00 96 02 fe 51 4d
+Target:    22047 Encoder:    11530 errors:8/652  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef ce 56 00 00 00 00 00 00 00 00 00 00 24
+[bus:0] Recieved :  3e a4 01 07 ea 21 47 00 5a 02 ca 52 e0
+Target:    22222 Encoder:    11642 errors:8/653  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 7d 57 00 00 00 00 00 00 00 00 00 00 d4
+[bus:0] Recieved :  3e a4 01 07 ea 21 56 00 07 02 6f 53 42
+Target:    22397 Encoder:    11732 errors:8/654  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 2c 58 00 00 00 00 00 00 00 00 00 00 84
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 03 02 15 54 f5
+Target:    22572 Encoder:    11824 errors:8/655  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef d9 58 00 00 00 00 00 00 00 00 00 00 31
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 58 02 f0 54 1f
+Target:    22745 Encoder:    11944 errors:8/656  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 87 59 00 00 00 00 00 00 00 00 00 00 e0
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 71 02 d3 55 1a
+Target:    22919 Encoder:    12069 errors:8/657  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 34 5a 00 00 00 00 00 00 00 00 00 00 8e
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 41 02 8a 56 a6
+Target:    23092 Encoder:    12169 errors:8/658  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e0 5a 00 00 00 00 00 00 00 00 00 00 3a
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 21 02 44 57 44
+Target:    23264 Encoder:    12271 errors:8/659  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 8c 5b 00 00 00 00 00 00 00 00 00 00 e7
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 23 02 ff 57 01
+Target:    23436 Encoder:    12374 errors:8/660  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 37 5c 00 00 00 00 00 00 00 00 00 00 93
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 2c 02 be 58 ca
+Target:    23607 Encoder:    12479 errors:8/661  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e2 5c 00 00 00 00 00 00 00 00 00 00 3e
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 6f 02 94 59 df
+Target:    23778 Encoder:    12596 errors:8/662  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 8c 5d 00 00 00 00 00 00 00 00 00 00 e9
+[bus:0] Recieved :  3e a4 01 07 ea 21 5a 00 aa 02 7c 5a fd
+Target:    23948 Encoder:    12724 errors:8/663  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 36 5e 00 00 00 00 00 00 00 00 00 00 94
+[bus:0] Recieved :  3e a4 01 07 ea 21 58 00 9b 02 60 5b d1
+Target:    24118 Encoder:    12849 errors:8/664  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef df 5e 00 00 00 00 00 00 00 00 00 00 3d
+[bus:0] Recieved :  3e a4 01 07 ea 21 5b 00 85 02 3c 5c 9b
+Target:    24287 Encoder:    12970 errors:8/665  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 87 5f 00 00 00 00 00 00 00 00 00 00 e6
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 85 02 17 5d 7a
+Target:    24455 Encoder:    13090 errors:8/666  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 2f 60 00 00 00 00 00 00 00 00 00 00 8f
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 6e 02 ec 5d 3b
+Target:    24623 Encoder:    13207 errors:8/667  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef d6 60 00 00 00 00 00 00 00 00 00 00 36
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 75 02 c4 5e 1a
+Target:    24790 Encoder:    13326 errors:8/668  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 7c 61 00 00 00 00 00 00 00 00 00 00 dd
+[bus:0] Recieved :  3e a4 01 07 ea 21 5d 00 a4 02 a9 5f 2c
+Target:    24956 Encoder:    13452 errors:8/669  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 22 62 00 00 00 00 00 00 00 00 00 00 84
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 97 02 8b 60 03
+Target:    25122 Encoder:    13576 errors:8/670  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef c7 62 00 00 00 00 00 00 00 00 00 00 29
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 5c 02 59 61 9c
+Target:    25287 Encoder:    13689 errors:8/671  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 6b 63 00 00 00 00 00 00 00 00 00 00 ce
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 39 02 1b 62 3f
+Target:    25451 Encoder:    13796 errors:8/672  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 0e 64 00 00 00 00 00 00 00 00 00 00 72
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 46 02 d6 62 06
+Target:    25614 Encoder:    13898 errors:8/673  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef b1 64 00 00 00 00 00 00 00 00 00 00 15
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 7c 02 be 63 21
+Target:    25777 Encoder:    14026 errors:8/674  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 53 65 00 00 00 00 00 00 00 00 00 00 b8
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 a0 02 95 64 1b
+Target:    25939 Encoder:    14144 errors:8/675  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef f4 65 00 00 00 00 00 00 00 00 00 00 59
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 8d 02 74 65 e9
+Target:    26100 Encoder:    14266 errors:8/676  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 95 66 00 00 00 00 00 00 00 00 00 00 fb
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 83 02 7a 66 e7
+Target:    26261 Encoder:    14410 errors:8/677  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 34 67 00 00 00 00 00 00 00 00 00 00 9b
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 8e 02 87 67 ff
+Target:    26420 Encoder:    14558 errors:8/678  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef d3 67 00 00 00 00 00 00 00 00 00 00 3a
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 9c 02 8a 68 10
+Target:    26579 Encoder:    14700 errors:8/679  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 71 68 00 00 00 00 00 00 00 00 00 00 d9
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 ae 02 74 69 0c
+Target:    26737 Encoder:    14829 errors:8/680  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 0e 69 00 00 00 00 00 00 00 00 00 00 77
+[bus:0] Recieved :  3e a4 01 07 ea 21 5d 00 bc 02 63 6a 09
+Target:    26894 Encoder:    14960 errors:8/681  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef aa 69 00 00 00 00 00 00 00 00 00 00 13
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 a5 02 49 6b db
+Target:    27050 Encoder:    15086 errors:8/682  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 45 6a 00 00 00 00 00 00 00 00 00 00 af
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 64 02 1a 6c 71
+Target:    27205 Encoder:    15201 errors:8/683  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef df 6a 00 00 00 00 00 00 00 00 00 00 49
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 59 02 e7 6c 34
+Target:    27359 Encoder:    15314 errors:8/684  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 78 6b 00 00 00 00 00 00 00 00 00 00 e3
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 7d 02 c1 6d 31
+Target:    27512 Encoder:    15434 errors:8/685  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 11 6c 00 00 00 00 00 00 00 00 00 00 7d
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 96 02 a3 6e 2b
+Target:    27665 Encoder:    15558 errors:8/686  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef a8 6c 00 00 00 00 00 00 00 00 00 00 14
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 83 02 7d 6f f5
+Target:    27816 Encoder:    15678 errors:8/687  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 3e 6d 00 00 00 00 00 00 00 00 00 00 ab
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 5e 02 4d 70 a4
+Target:    27966 Encoder:    15792 errors:8/688  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef d4 6d 00 00 00 00 00 00 00 00 00 00 41
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 63 02 10 71 6c
+Target:    28116 Encoder:    15899 errors:8/689  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 68 6e 00 00 00 00 00 00 00 00 00 00 d6
+[bus:0] Recieved :  3e a4 01 07 ea 21 63 00 88 02 ee 71 6d
+Target:    28264 Encoder:    16021 errors:8/690  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef fb 6e 00 00 00 00 00 00 00 00 00 00 69
+[bus:0] Recieved :  3e a4 01 07 ea 21 5d 00 d0 02 f3 72 b5
+Target:    28411 Encoder:    16164 errors:8/691  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 8e 6f 00 00 00 00 00 00 00 00 00 00 fd
+[bus:0] Recieved :  3e a4 01 07 ea 21 5d 00 ca 02 d5 73 92
+Target:    28558 Encoder:    16288 errors:8/692  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 1f 70 00 00 00 00 00 00 00 00 00 00 8f
+[bus:0] Recieved :  3e a4 01 07 ea 21 5f 00 b6 02 c2 74 6e
+Target:    28703 Encoder:    16419 errors:8/693  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef af 70 00 00 00 00 00 00 00 00 00 00 1f
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 ae 02 ac 75 52
+Target:    28847 Encoder:    16547 errors:8/694  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 3e 71 00 00 00 00 00 00 00 00 00 00 af
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 8f 02 8b 76 15
+Target:    28990 Encoder:    16670 errors:8/695  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef cc 71 00 00 00 00 00 00 00 00 00 00 3d
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 78 02 64 77 da
+Target:    29132 Encoder:    16789 errors:8/696  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 59 72 00 00 00 00 00 00 00 00 00 00 cb
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 81 02 3f 78 bf
+Target:    29273 Encoder:    16909 errors:8/697  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e5 72 00 00 00 00 00 00 00 00 00 00 57
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 75 02 15 79 8b
+Target:    29413 Encoder:    17027 errors:8/698  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 70 73 00 00 00 00 00 00 00 00 00 00 e3
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 60 02 e5 79 48
+Target:    29552 Encoder:    17141 errors:8/699  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef f9 73 00 00 00 00 00 00 00 00 00 00 6c
+[bus:0] Recieved :  3e a4 01 07 ea 21 69 00 49 02 ad 7a fc
+Target:    29689 Encoder:    17251 errors:8/700  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 81 74 00 00 00 00 00 00 00 00 00 00 f5
+[bus:0] Recieved :  3e a4 01 07 ea 21 67 00 63 02 80 7b e8
+Target:    29825 Encoder:    17367 errors:8/701  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 08 75 00 00 00 00 00 00 00 00 00 00 7d
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 ae 02 6b 7c 19
+Target:    29960 Encoder:    17496 errors:8/702  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 8e 75 00 00 00 00 00 00 00 00 00 00 03
+[bus:0] Recieved :  3e a4 01 07 ea 21 5c 00 e3 02 67 7d 46
+Target:    30094 Encoder:    17634 errors:8/703  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 13 76 00 00 00 00 00 00 00 00 00 00 89
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 cc 02 5b 7e 26
+Target:    30227 Encoder:    17768 errors:8/704  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 96 76 00 00 00 00 00 00 00 00 00 00 0c
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 b3 02 47 7f fc
+Target:    30358 Encoder:    17898 errors:8/705  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 19 77 00 00 00 00 00 00 00 00 00 00 90
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 bb 02 25 80 e3
+Target:    30489 Encoder:    18020 errors:8/706  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 9a 77 00 00 00 00 00 00 00 00 00 00 11
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 b7 02 12 81 cd
+Target:    30618 Encoder:    18150 errors:8/707  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 19 78 00 00 00 00 00 00 00 00 00 00 91
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 9e 02 f6 81 9a
+Target:    30745 Encoder:    18275 errors:8/708  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 98 78 00 00 00 00 00 00 00 00 00 00 10
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 68 02 d7 82 4a
+Target:    30872 Encoder:    18399 errors:8/709  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 15 79 00 00 00 00 00 00 00 00 00 00 8e
+[bus:0] Recieved :  3e a4 01 07 ea 21 69 00 42 02 8f 83 e0
+Target:    30997 Encoder:    18500 errors:8/710  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 91 79 00 00 00 00 00 00 00 00 00 00 0a
+[bus:0] Recieved :  3e a4 01 07 ea 21 69 00 42 02 55 84 a7
+Target:    31121 Encoder:    18609 errors:8/711  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 0c 7a 00 00 00 00 00 00 00 00 00 00 86
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 52 02 1f 85 81
+Target:    31244 Encoder:    18720 errors:8/712  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 85 7a 00 00 00 00 00 00 00 00 00 00 ff
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 6c 02 f5 85 6f
+Target:    31365 Encoder:    18837 errors:8/713  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef fd 7a 00 00 00 00 00 00 00 00 00 00 77
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 c1 02 e7 86 b1
+Target:    31485 Encoder:    18970 errors:8/714  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 73 7b 00 00 00 00 00 00 00 00 00 00 ee
+[bus:0] Recieved :  3e a4 01 07 ea 21 5a 00 f0 02 e7 87 db
+Target:    31603 Encoder:    19111 errors:8/715  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef e8 7b 00 00 00 00 00 00 00 00 00 00 63
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 bd 02 d6 88 9c
+Target:    31720 Encoder:    19242 errors:8/716  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 5c 7c 00 00 00 00 00 00 00 00 00 00 d8
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 be 02 c6 89 90
+Target:    31836 Encoder:    19374 errors:8/717  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef cf 7c 00 00 00 00 00 00 00 00 00 00 4b
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 d3 02 bd 8a 9b
+Target:    31951 Encoder:    19510 errors:8/718  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 40 7d 00 00 00 00 00 00 00 00 00 00 bd
+[bus:0] Recieved :  3e a4 01 07 ea 21 5d 00 d7 02 b5 8b 97
+Target:    32064 Encoder:    19646 errors:8/719  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef af 7d 00 00 00 00 00 00 00 00 00 00 2c
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 81 02 8f 8c 23
+Target:    32175 Encoder:    19766 errors:8/720  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 1e 7e 00 00 00 00 00 00 00 00 00 00 9c
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 2f 02 4e 8d 98
+Target:    32286 Encoder:    19870 errors:8/721  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 8a 7e 00 00 00 00 00 00 00 00 00 00 08
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 27 02 0b 8e 4e
+Target:    32394 Encoder:    19974 errors:8/722  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef f6 7e 00 00 00 00 00 00 00 00 00 00 74
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 4a 02 d4 8e 37
+Target:    32502 Encoder:    20085 errors:8/723  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef 60 7f 00 00 00 00 00 00 00 00 00 00 df
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 65 02 98 8f 15
+Target:    32608 Encoder:    20192 errors:8/724  (errors in checksum of second part of response: 8)
+[bus:0] Sending :  3e a4 01 0c ef c8 7f 00 00 00 00 00 00 00 00 00 00 47
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 82 02 74 90 0a
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+********** Motor A **********
+[bus:0] Sending :  3e 12 01 00 51
+[bus:0] Recieved :  3e 12 01 3a 8b 44 53 34 30 52 37 00 00 00 00 00 00 00 00 00 00 00 00 00 00 4d 53 34 30 31 35 00 00 00 00 00 00 00 00 00 00 00 00 00 00 35 37 35 30 30 32 73 18 78 03 4a 4b 2c 01 c8 00 eb 00 9c
+Motor:             A
+Driver Name:       DS40R7
+Motor Name:        MS4015
+Motor ID:          575002sxJK
+Hardware Version:  3.00
+Motor Version:     2.00
+Firmware Version:  2.35
+motor_on
+[bus:0] Sending :  3e 88 01 00 c7
+[bus:0] Recieved :  3e 88 01 00 c7
+[bus:0] Sending :  3e 90 01 00 cf
+[bus:0] Recieved :  3e 90 01 06 d5 af 92 8b 97 dc 04 43
+Encoder:37551 Raw:38795 Offset:1244
+[bus:0] Sending :  3e 42 01 07 88 97 32 00 14 00 00 00 dd
+[bus:0] Recieved :  3e 42 01 02 83 97 00 97
+[bus:0] Sending :  3e 42 01 07 88 96 32 00 14 00 00 00 dc
+[bus:0] Recieved :  3e 42 01 02 83 96 00 96
+[bus:0] Sending :  3e a4 01 0c ef 2f 80 00 00 00 00 00 00 00 00 00 00 af
+[bus:0] Recieved :  3e a4 01 07 ea 21 00 00 9e 00 84 93 d6
+Target:    32815 Encoder:    20744 errors:9/726  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 94 80 00 00 00 00 00 00 00 00 00 00 14
+[bus:0] Recieved :  3e a4 01 07 ea 21 73 00 cf 00 d0 93 c6
+Target:    32916 Encoder:    20786 errors:9/727  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef f8 80 00 00 00 00 00 00 00 00 00 00 78
+[bus:0] Recieved :  3e a4 01 07 ea 21 68 00 40 02 9b 94 fa
+Target:    33016 Encoder:    20897 errors:9/728  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 5b 81 00 00 00 00 00 00 00 00 00 00 dc
+[bus:0] Recieved :  3e a4 01 07 ea 21 4e 00 2a 03 ac 95 dd
+Target:    33115 Encoder:    21047 errors:9/729  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef bc 81 00 00 00 00 00 00 00 00 00 00 3d
+[bus:0] Recieved :  3e a4 01 07 ea 21 57 00 7f 02 82 96 11
+Target:    33212 Encoder:    21165 errors:9/730  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 1b 82 00 00 00 00 00 00 00 00 00 00 9d
+[bus:0] Recieved :  3e a4 01 07 ea 21 72 00 b7 01 19 97 fb
+Target:    33307 Encoder:    21248 errors:9/731  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 79 82 00 00 00 00 00 00 00 00 00 00 fb
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 d8 01 ba 97 bb
+Target:    33401 Encoder:    21336 errors:9/732  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef d6 82 00 00 00 00 00 00 00 00 00 00 58
+[bus:0] Recieved :  3e a4 01 07 ea 21 6d 00 fc 01 68 98 8b
+Target:    33494 Encoder:    21432 errors:9/733  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 31 83 00 00 00 00 00 00 00 00 00 00 b4
+[bus:0] Recieved :  3e a4 01 07 ea 21 6a 00 23 02 24 99 6d
+Target:    33585 Encoder:    21535 errors:9/734  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 8a 83 00 00 00 00 00 00 00 00 00 00 0d
+[bus:0] Recieved :  3e a4 01 07 ea 21 65 00 62 02 f6 99 79
+Target:    33674 Encoder:    21650 errors:9/735  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef e2 83 00 00 00 00 00 00 00 00 00 00 65
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 8c 02 d5 9a 7f
+Target:    33762 Encoder:    21773 errors:9/736  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 38 84 00 00 00 00 00 00 00 00 00 00 bc
+[bus:0] Recieved :  3e a4 01 07 ea 21 60 00 a1 02 ad 9b 6c
+Target:    33848 Encoder:    21891 errors:9/737  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 8c 84 00 00 00 00 00 00 00 00 00 00 10
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 b9 02 9c 9c 72
+Target:    33932 Encoder:    22023 errors:9/738  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef df 84 00 00 00 00 00 00 00 00 00 00 63
+[bus:0] Recieved :  3e a4 01 07 ea 21 58 00 d6 02 93 9d 81
+Target:    34015 Encoder:    22158 errors:9/739  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 30 85 00 00 00 00 00 00 00 00 00 00 b5
+[bus:0] Recieved :  3e a4 01 07 ea 21 56 00 c9 02 97 9e 77
+Target:    34096 Encoder:    22301 errors:9/740  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 80 85 00 00 00 00 00 00 00 00 00 00 05
+[bus:0] Recieved :  3e a4 01 07 ea 21 4f 00 d9 02 a1 9f 8b
+Target:    34176 Encoder:    22447 errors:9/741  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef ce 85 00 00 00 00 00 00 00 00 00 00 53
+[bus:0] Recieved :  3e a4 01 07 ea 21 4f 00 a7 02 86 a0 3f
+Target:    34254 Encoder:    22573 errors:9/742  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 1b 86 00 00 00 00 00 00 00 00 00 00 a1
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 10 02 2b a1 65
+Target:    34331 Encoder:    22664 errors:9/743  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 66 86 00 00 00 00 00 00 00 00 00 00 ec
+[bus:0] Recieved :  3e a4 01 07 ea 21 70 00 c1 01 c6 a1 ba
+Target:    34406 Encoder:    22749 errors:9/744  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef af 86 00 00 00 00 00 00 00 00 00 00 35
+[bus:0] Recieved :  3e a4 01 07 ea 21 6b 00 ff 01 75 a2 a3
+Target:    34479 Encoder:    22845 errors:9/745  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef f7 86 00 00 00 00 00 00 00 00 00 00 7d
+[bus:0] Recieved :  3e a4 01 07 ea 21 66 00 3d 02 39 a3 a2
+Target:    34551 Encoder:    22953 errors:9/746  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 3c 87 00 00 00 00 00 00 00 00 00 00 c3
+[bus:0] Recieved :  3e a4 01 07 ea 21 64 00 52 02 04 a4 81
+Target:    34620 Encoder:    23064 errors:9/747  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 81 87 00 00 00 00 00 00 00 00 00 00 08
+[bus:0] Recieved :  3e a4 01 07 ea 21 62 00 69 02 d7 a4 69
+Target:    34689 Encoder:    23180 errors:9/748  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef c3 87 00 00 00 00 00 00 00 00 00 00 4a
+[bus:0] Recieved :  3e a4 01 07 ea 21 61 00 78 02 b0 a5 51
+Target:    34755 Encoder:    23299 errors:9/749  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 04 88 00 00 00 00 00 00 00 00 00 00 8c
+[bus:0] Recieved :  3e a4 01 07 ea 21 5e 00 99 02 94 a6 54
+Target:    34820 Encoder:    23425 errors:9/750  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 43 88 00 00 00 00 00 00 00 00 00 00 cb
+[bus:0] Recieved :  3e a4 01 07 ea 21 56 00 c9 02 88 a7 71
+Target:    34883 Encoder:    23559 errors:9/751  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 81 88 00 00 00 00 00 00 00 00 00 00 09
+[bus:0] Recieved :  3e a4 01 07 ea 21 4a 00 e7 02 85 a8 81
+Target:    34945 Encoder:    23698 errors:9/752  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef bd 88 00 00 00 00 00 00 00 00 00 00 45
+[bus:0] Recieved :  3e a4 01 07 ea 21 3f 00 d5 02 7c a9 5c
+Target:    35005 Encoder:    23833 errors:9/753  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef f7 88 00 00 00 00 00 00 00 00 00 00 7f
+[bus:0] Recieved :  3e a4 01 07 ea 21 40 00 89 02 58 aa ee
+Target:    35063 Encoder:    23954 errors:9/754  (errors in checksum of second part of response: 9)
+[bus:0] Sending :  3e a4 01 0c ef 30 89 00 00 00 00 00 00 00 00 00 00 b9
+[bus:0] Recieved :  3e a4 01 07 ea 21 52 00 0a 02 fc aa 28
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Communication error
+fin
+Destroying A
+[bus:0] ~Bus
