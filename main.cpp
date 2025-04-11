@@ -56,12 +56,11 @@ int main(int argc, char* argv[])
 
         float t = (now - start_time)/1000000000.0;
         
-        int64_t target_centidegrees =  5000 * sin(t*3);
+        int64_t target_centidegrees_pan =  2000 * cos(t*3);
+        int64_t target_centidegrees_tilt =  2000 * sin(t*3);
         
-        for(Motor* motor : motors) {
-            motor->update(target_centidegrees);
-        
-        }
+        motors[0]->update(target_centidegrees_pan);
+        motors[1]->update(target_centidegrees_tilt);
         
         float fps = 0;
         uint64_t dt = now - last_time;
@@ -70,7 +69,7 @@ int main(int argc, char* argv[])
         {
             fps = 1000000000.0/dt;
         }
-        printf("fps:%0.1f Target:%+05ld", fps, target_centidegrees);        
+        printf("fps:%0.1f Pan:%+05ld Tilt:%+05ld", fps, target_centidegrees_pan,target_centidegrees_tilt);        
         for(Motor* motor : motors) {
             printf(" (m2: %lu/%lu %lu)", motor->multi_loop_angle_control_command_2_attempt - motor->multi_loop_angle_control_command_2_success, motor->multi_loop_angle_control_command_2_attempt, motor->encoder_centidegrees);        
         }
